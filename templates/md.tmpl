@@ -1,0 +1,55 @@
+---
+title: '{{.Me.FirstName}} {{.Me.LastName}}'
+website: {{.Me.Contact.Website}}
+street: {{.Me.Location.Address}}
+postcode: {{.Me.Location.PostalCode}}
+city: {{.Me.Location.City}}
+phone: {{.Me.Contact.Mobile}}
+email: {{.Me.Contact.Email}}
+date: {{.Me.DateOfBirth}}
+...
+
+# {{.Title}}
+
+### Résumé
+
+> {{.Summary}}
+
+ - Profil de postes souhaités : {{range .Expectations.Jobs}}{{.}}; {{end}}
+ - Domaines : {{range .Expectations.Domains}}{{.}}; {{end}}
+
+Retrouvez-moi sur {{range .Me.Profiles}}[{{.Network}}]({{.URL}}); {{end}}
+
+### Expérience professionnelle
+
+{{range .Companies}}- [{{.Title}}]({{.Website}}) - {{.Sector}} ({{.Activity}}) - {{.Location.City}}, {{.Location.CountryCode}}
+  {{range .Positions}}{{ $startDate := .ParsedStartDate }}
+  * **{{.Title}}{{if .Trainee}}, Stagiaire{{end}}** - {{if .HasEndDate}}{{$endDate := .ParsedEndDate}}De {{$startDate.Month}},{{$startDate.Year}} à {{$endDate.Month}},{{$endDate.Year}}{{else}}Depuis {{$startDate.Month}},{{$startDate.Year}}{{end}}
+    {{ range .Highlights}}- {{.}}
+    {{end}}{{end}}
+
+{{end}}
+
+### Formation
+
+{{ range .Education}}- {{.School}}, {{.Location.City}}, {{.Location.CountryCode}}
+  {{ range.Diplomas }}
+  - {{.ParsedEndDate.Year}} - **{{ .Title }}**
+    > {{range .Courses}}{{.}}; {{end}}
+  {{end}}
+{{end}}
+
+### Compétences
+
+{{ range .SkillSets }}
+- **{{.Category}}** - {{ range $key, $value := .Skills }}{{$key}}; {{end}}
+{{end}}
+
+### Références
+
+> Disponibles sur demandes.
+
+### Autres activités
+
+{{ range .Extras }} - {{.}}
+{{end}}

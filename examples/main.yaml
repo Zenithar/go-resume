@@ -1,0 +1,43 @@
+firstname: Thibault
+lastname: Normand
+sex: MALE
+dob: 1983-05-31
+status: MARIED
+picture: ""
+nationality: FR
+
+# ----------------------------------------------------------------------------
+
+location:
+  countryCode: FR
+  region: "Midi-Pyrénées"
+  postalCode: 31150
+  city: Fenouillet
+  address: 1 Rue d'aquitaine, Rés Les Sports, Appt J74
+contact:
+  mobile: +33 668 666 636
+  email: thibault.normand@gmail.com
+  website: http://zenithar.org
+
+# ----------------------------------------------------------------------------
+
+profiles:
+  - network: twitter
+    username: zenithar
+    url: https://twitter.com/zenithar
+  - network: linkedin
+    url: https://www.linkedin.com/in/zenithar
+  - network: facebook
+    username: zenithar
+    url: https://www.facebook.com/zenithar
+  - network: github
+    username: zenithar
+    url: https://github.com/zenithar
+  - network: mastodon
+    url: https://mamot.fr/@zenithar
+
+# ----------------------------------------------------------------------------
+
+qualifications:
+  - title: MS72-215
+    description: Microsoft Windows 2000 Server

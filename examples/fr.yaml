@@ -1,0 +1,444 @@
+version: 0.0.1
+
+info: !include main.yaml
+
+# ----------------------------------------------------------------------------
+
+title: Cyber Security Engineer
+
+summary: |
+  Développeur de formation et passionné de sécurité, j'aime traiter des projets
+  alliant ces deux compétences. Mon expérience en développement, ainsi que ma
+  curiosité pour les technologies me permet d'avoir un regard tourné vers
+  l'avenir. J'attache de l'importance au partage des connaissances et
+  compétences au sein de mon environnement de travail. Avide de connaissances,
+  je recherche des postes permettant l'apprentissage et l'exploitation de
+  nouveaux savoirs.
+
+expectations:
+
+  jobs:
+    - "Architecte Solution"
+    - "Développeur FullStack"
+    - "Expertise Technique"
+    - "Conseil"
+
+  domains:
+    - "Cyber Sécurité"
+    - "Big Data"
+    - "Machine learning"
+    - "Blockchain"
+    - "IoT"
+
+# ----------------------------------------------------------------------------
+
+companies:
+
+  - company: "N/C"
+    website: ""
+    activity: "R&D"
+    sector: "Industriel"
+    location:
+      countryCode: FR
+      city: Toulouse
+    positions:
+      - title: "Cyber Security Engineer"
+        startDate: "2017-06-18"
+        highlights:
+          - Métrologie opérationnelle et sécurité. (Prometheus)
+          - Conception d'alertes Sécurité centrées sur la capacité de réponse aux incidents.
+          - Etude et analyse de risque ISO2700x.
+          - Exigences techniques pour conformité RGPD.
+          - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux.
+          - Audit qualité et sécurité. (Java / J2EE / NodeJS / Python)
+
+  - company: "Sogeti ESEC"
+    website: "https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/"
+    activity: "SSII"
+    sector: "Securité"
+    location:
+      countryCode: FR
+      city: Toulouse
+    positions:
+      - title: "Cyber Security Engineer / Data Engineer / Full Stack Developer / DevOps"
+        startDate: "2013-10-28"
+        endDate: "2017-06-08"
+        highlights:
+          - Développement outils CERT / SOC.
+          - Portail de services client. (Go, RethinkDB, VueJS)
+          - Outil de gestion d'incidents Jira / QRadar (Go, Javascript, RethinkDB)
+          - Wallboard temps réels pour suvi des métriques de services. (Elixir, Phoenix, Sass, VueJS)
+          - Plateforme d'analyse de malware automatisée pour extraction d'IoC. (Go, RethinkDB, RabbitMQ, Docker, Cuckoo, VirusTotal, Yara, AngularJS 2)
+          - Etude des régroupements de données IoC / IoA / observables. (R, Neo4j, ElasticSearch, Machine learning, Clustering)
+          - Plateforme de centralisation d'indicateurs pour analyse sécurité "Technical Threat Intelligence". (Go, RabbitMQ, ElasticSearch, Neo4j, AngularJS)
+          - Plateforme de soumission et de séquestre de malwares. (Go, RabbitMQ, MongoDB)
+          - Plateforme de centralisation et corrélation des bulletins sécurité. (Go, RabbitMQ, MongoDB, AngularJS)
+          - Conception et réalisation d'un système embarqué type "boîte blanche" pour décontamination virale. (Go, AngularJS, Qt, ZMQ, Docker)
+          - Plateforme d'harmonisation et d'échanges de règles SIEM. (Go, MongoDB, AngularJS)
+          - "Conception et réalisation de microservices: email (composition, envoi, signature), identification / autorisation, jetons, licences (Go, gRPC, Consul, Vault, Docker, Rancher)"
+          - Tableaux de bords et métrologie logiciel. (Go, Prometheus, InfluxDB, ElasticSearch, Grafana)
+          - Audit qualité et sécurité. (Java / J2EE)
+          - Encadrement stagiaires.
+
+  - company: "Infotel"
+    website: "http://www.infotel.com"
+    activity: "Editeur / R&D"
+    sector: "Mainframe"
+    location:
+      countryCode: FR
+      city: Toulouse
+    positions:
+      - title: "Ingénieur R&D / Scrum Master"
+        startDate: "2010-01-04"
+        endDate: "2013-10-26"
+        highlights:
+          - Plateforme de dépot sécurisé de fichier à haute valeur probante. (RabbitMQ, Protobuf, Scala/AKKA, Java, Spring, ElasticSearch, AngularJS)
+          - Conception et réalisation d'un SSO basé sur OAUTH 2.0. (Java, Spring, JWT, PKI, PKCS#11, HOTP)
+          - Développements d'applications Javascript. (jQuery, Backbone.JS, CoffeeScript).
+          - Industrialisation de l'intégration continue. (Git, Jenkins, Sonar)
+          - Industrialisation de la chaîne documentaire. (Git, Jenkins, Maven, Docbook5, XSLT, FOP)
+          - Interfaces de gestion de processus DB2 / Z/OS. (Java, Portlets)
+          - Revue de code qualité et sécurité. (Java, J2EE)
+          - Maintenance de produits. (ClearCase, Java, Struts2, Eclipse RCP)
+          - Encadrement stagiaires.
+
+  - company: "SCASSI Conseil"
+    website: "http://www.scassi.com"
+    activity: "SSII / Conseil"
+    sector: "Sécurité"
+    location:
+      countryCode: FR
+      city: Toulouse
+    positions:
+      - title: "Ingénieur Sécurité"
+        startDate: "2008-07-01"
+        endDate: "2009-12-20"
+        highlights:
+          - Conception et réalisation d'un outil d'analyse de risques basé sur la méthodologie EBIOS (SOA, J2EE, .Net)
+          - Généralisation des méthodes d'analyse de risques (UML)
+          - Audit de code (Java/J2EE, C/C++, PHP)
+          - Reverse engineering, analyse de malware
+          - SOC (Security Operating Center) auprès d'un grand compte (Gestion des événements sécurité, gestion des requêtes sécurité, maintient en condition opérationnelle)
+          - Instructeur pour des ateliers techniques (Virtualisation / Firewall & Contrôles d'accès) auprès d'une vingtaine de personnes
+
+      - title: "Développeur"
+        trainee: true
+        startDate: "2007-10-01"
+        endDate: "2008-07-30"
+        highlights:
+          - Conception et réalisation d'un outil d'analyse de risques basé sur la méthodologie EBIOS (Ruby, RoR)
+          - Administration système et réseau dans un environnement hétérogène
+          - Penetration Testing sur applications Web J2EE.
+
+  - company: "Opencube Technologies"
+    website: "http://www.opencubetech.com/"
+    activity: "Editeur / R&D"
+    sector: "Média Numérique"
+    location:
+      countryCode: FR
+      city: Toulouse
+    positions:
+      - title: "Développeur"
+        trainee: true
+        startDate: "2007-03-01"
+        endDate: "2007-09-01"
+        highlights:
+          - Réalisation d'une API d'exploitation de format d'échange de sous-titre DFXP. (Qt, C++)
+          - Traitement du signal pour récupération de signaux télétexte. (Qt, C++)
+
+  - company: "MEDES IMPS"
+    website: "http://www.medes.fr/"
+    activity: "Editeur / R&D"
+    sector: "Santé / Espace"
+    location:
+      countryCode: FR
+      city: Toulouse
+    positions:
+      - title: "Développeur"
+        trainee: true
+        startDate: "2006-03-01"
+        endDate: "2006-09-01"
+        highlights:
+          - Conception et réalisation d'un composant graphique pour afficher des informations géolocalisées. (Java, Eclipse, RCP)
+          - Etat de l'art des systèmes d'informations géolocalisées libre (PostGIS, GRASS)
+          - Architecture réseau, mise en place d'un domaine libre (OpenLDAP, Samba, Kerberos, DHCP, DNS, NTP)
+          - Virtualisation Serveurs (Gentoo, Xen, VMWare)
+
+  - company: "Karobas"
+    website: "http://www.karobas.fr/"
+    activity: "Editeur / R&D"
+    sector: "Jeux Vidéo"
+    location:
+      countryCode: FR
+      city: Sophia Antipolis
+    positions:
+      - title: "Administrateur Système et Réseau"
+        trainee: true
+        startDate: "2005-03-01"
+        endDate: "2005-08-01"
+        highlights:
+          - Conception / Restructuration du réseau de l'entreprise.
+          - Haute disponibilité et Sécurité.
+          - Mise en place d'un domaine Exchange 2003.
+          - Migration technologique de base de données, et prise en charges des impacts logiciels.
+          - Modélisation mondes ludo-educatifs (Virtools).
+
+  - company: "Nice-antiques.com"
+    website: "http://www.karobas.fr/"
+    activity: "Antiquaire"
+    sector: "Art"
+    location:
+      countryCode: FR
+      city: Nice
+    positions:
+      - title: "WebMaster"
+        trainee: true
+        startDate: "2004-03-01"
+        endDate: "2004-07-01"
+        highlights:
+          - Conception et réalisation d'un site web dynamique. (PHP / MySQL)
+          - Optimisation du référencement commercial.
+
+# ----------------------------------------------------------------------------
+
+education:
+
+  - school: "IUP ISI"
+    location:
+      countryCode: FR
+      city: Toulouse
+
+    diplomas:
+      - title: M2 ISI - Métamodélisation et Temps réél critique
+        startDate: "2007-09-01"
+        endDate: "2008-09-01"
+        courses:
+          - Métamodélisation UML
+          - J2EE
+          - Programmation temps réél (ADA, C, SCADE)
+          - Droit
+
+      - title: M1 Ingénierie des Systèmes Informatiques (ISI)
+        startDate: "2006-09-01"
+        endDate: "2007-09-01"
+        courses:
+          - Conception / Modélisation UML
+          - Programmation distribuée (Java / J2EE, C)
+          - Base de données (avancé)
+          - Mathématiques
+          - Gestion / Economie
+
+      - title: L3 Ingénierie des Systèmes Informatiques
+        startDate: "2005-09-01"
+        endDate: "2006-09-01"
+        courses:
+          - Conception / Modélisation UML
+          - Programmation (Java / C++ / C / ASM)
+          - Base de données
+          - Mathématiques
+          - Gestion / Economie
+
+  - school: "IUT Informatique"
+    location:
+      countryCode: FR
+      city: Nice
+
+    diplomas:
+      - title: Licence Professionnelle, Administration des Systèmes et des Réseaux (ASR)
+        startDate: "2004-09-01"
+        endDate: "2005-09-01"
+        courses:
+          - Réseau
+          - Administration Systèmes (Unix, Windows)
+          - Base de données (Oracle)
+          - Mathématiques
+          - Gestion / Economie
+          - Droit
+
+      - title: DUT Informatique, Génie Logiciel
+        startDate: "2002-09-01"
+        endDate: "2004-09-01"
+        courses:
+          - Base de données
+          - Programmation (Java / C++ / C)
+          - Réseau
+          - Mathématiques
+          - Gestion / Economie
+
+  - school: "Lycée Albert Camus"
+    location:
+      countryCode: FR
+      city: Fréjus
+
+    diplomas:
+      - title: Bac S, Science de l'Ingénieur, spécialité Mathématiques
+        startDate: ""
+        endDate: "2002-09-01"
+        courses:
+          - Mathématiques
+          - Mécanique
+          - Electronique
+          - Informatique
+
+# ----------------------------------------------------------------------------
+
+skillsets:
+
+  - category: Fonctionnelles
+    skills:
+      "Creative Thinking": 5
+      "Veille technologique": 5
+      "Gestion de projet / Scrum Master": 4
+      "Conduite de réunion": 4
+      "Pédagogie / Vulgarisation": 4
+      "Rédaction publications scientifiques": 3
+      "Présentation en public": 3
+
+  - category: Affinités FullStack
+    skills:
+      Backend: 5
+      Administration: 5
+      Frontend: 4
+      UX/UI Designer: 2
+
+  - category: Languages
+    skills:
+      "Go": 5
+      "JavaScript": 5
+      "Java": 5
+      "C/C++": 4
+      "Ruby": 4
+      "Python": 4
+      "Scala": 3
+      "Elixir": 3
+      "ASM (x86, ARM7)": 2
+
+  - category: Base de données
+    skills:
+      "MongoDB": 5
+      "RethinkDB": 5
+      "Redis": 5
+      "Neo4J": 4
+      "ElasticSearch": 4
+      "MySQL / MariaDB": 4
+      "PostgreSQL": 4
+      "Hadoop / HBase": 3
+      "Oracle": 3
+      "SQL Server": 3
+      DB2: 2
+
+  - category: Système d'exploitation
+    skills:
+      "Linux (OS courant: ArchLinux)": 5
+      MacOSX: 4
+      Windows: 3
+
+  - category: Backend Framework
+    skills:
+      "Go": 5
+      gRPC / Protobuf: 5
+      "NodeJS": 5
+      "Express": 4
+      "MeteorJS": 3
+      "Ruby on Rails": 3
+      "Flask": 3
+      "Django": 2
+      "Play! Framework": 2
+
+  - category: DevOps
+    skills:
+      "Docker": 5
+      Rancher: 5
+      Prometheus: 5
+      Grafana: 4
+      GitlabCI: 4
+      Sentry: 4
+      Kubernetes: 3
+      Jenkins: 3
+      LogStash: 3
+      "Ansible": 2
+
+  - category: Frontend / UX
+    skills:
+      "AngularJS 1.x": 5
+      "ES 6/7": 4
+      "TypeScript": 4
+      "VueJS": 4
+      WebPack: 4
+      "Bootstrap": 4
+      "React": 3
+      "HTML5": 3
+      "CSS3 / SASS / LESS": 3
+      "Web Design": 3
+      "AngularJS 2.x": 2
+
+  - category: "Ingénierie des données"
+    skills:
+      "Python / Jupyter / Pandas": 4
+      "Protégé": 4
+      "Maltego": 4
+      "ElasticSearch / LogStash / Kibana (ELK)": 4
+      "Anonymisation": 4
+      "Machine learning (SVM, PNN, RF, GBM)": 3
+      Traitement du signal: 3
+      "Statistiques": 3
+      "H2o": 3
+      "SciKit Learn": 3
+      "R": 3
+      "QlikView": 3
+      "D3": 2
+
+  - category: "Sécurité"
+    skills:
+      Programmation défensive: 5
+      OWASP Top 10: 5
+      SANS Top 25: 5
+      "Audit de code": 4
+      Cryptographie / Chiffrement: 4
+      "RE: Java": 4
+      "Cuckoo Sandbox": 4
+      Durcissement infrastructure / machine / logiciel: 4
+      "Suricata": 3
+      "Bro IDS": 3
+      "Honeypots (Cowerie / Kippo)": 3
+      "DNS / SMTP Sinkhole": 3
+      "Analyse des risques (EBIOS)": 3
+      "RGPD": 3
+      Reverse Engineering: 2
+      Penetration Testing: 1
+
+  - category: "Blockchain"
+    skills:
+      "Ethereum": 4
+      "IBM Hyperledger": 3
+
+  - category: "Java"
+    skills:
+      Spring (Core, MVC, Security Data): 5
+      J2EE: 4
+      Apache Storm: 4
+      Apache Spark: 3
+      Apache Kafka: 3
+      Zookeeper: 3
+
+# ----------------------------------------------------------------------------
+
+interests:
+  - name: ""
+    keywords:
+      - ""
+
+# ----------------------------------------------------------------------------
+
+references:
+  - name: ""
+    reference: ""
+
+# ----------------------------------------------------------------------------
+extras:
+
+  - "Batterie depuis Septembre 2013"
+  - "Saxophone depuis l'âge de 11 ans dont 6 ans en conservatoire"
+  - "Amélioration continuelle grâce à la veille technologique, l'expérimentation et les projets personnels (Sécurité, Logiciels, Techniques de management)"
+  - Rédacteur (Blog)
+  - Explorateur technologique
