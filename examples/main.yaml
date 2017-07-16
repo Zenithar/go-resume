@@ -22,18 +22,20 @@ contact:
 # ----------------------------------------------------------------------------
 
 profiles:
-  - network: twitter
+  'twitter':
     username: zenithar
     url: https://twitter.com/zenithar
-  - network: linkedin
+  'linkedin':
+    username: zenithar
     url: https://www.linkedin.com/in/zenithar
-  - network: facebook
+  'facebook':
     username: zenithar
     url: https://www.facebook.com/zenithar
-  - network: github
+  'github':
     username: zenithar
     url: https://github.com/zenithar
-  - network: mastodon
+  'mastodon':
+    username: zenithar
     url: https://mamot.fr/@zenithar
 
 # ----------------------------------------------------------------------------

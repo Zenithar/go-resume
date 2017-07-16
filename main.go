@@ -19,10 +19,18 @@ func main() {
 	}
 
 	// Generate output
-	tmpl, err := template.ParseFiles("./templates/md.tmpl")
+	tmpl := template.New("output")
 	if err != nil {
 		logrus.WithError(err).Fatal("Unable to load template.")
 	}
 
-	tmpl.Execute(os.Stdout, model)
+	tmpl, err = tmpl.Delims("{~", "~}").ParseGlob("./templates/*.tmpl")
+	if err != nil {
+		logrus.WithError(err).Fatal("Unable to parse template.")
+	}
+
+	err = tmpl.ExecuteTemplate(os.Stdout, "latex.tmpl", &model)
+	if err != nil {
+		logrus.WithError(err).Fatal("Unable to merge template.")
+	}
 }

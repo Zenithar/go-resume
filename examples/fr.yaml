@@ -2,6 +2,8 @@ version: 0.0.1
 
 info: !include main.yaml
 
+quote: "Il existe moins bien mais c'est plus cher !"
+
 # ----------------------------------------------------------------------------
 
 title: Cyber Security Engineer
