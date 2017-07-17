@@ -97,15 +97,52 @@
       {{~ .Title ~}} % Job title
       {{~ $org.Title ~}} % Organization
       {{~ $org.Location.City ~}, {~ $org.Location.CountryCode ~}} % Location
-      {} % Date(s)
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-      {~ range .Highlights~}
-        \item {{~ . ~}}
-      {~end~}}
-      \end{cvitems}
+      {{~ .DateRange ~}} % Date(s)
+      {
+        \begin{cvitems} % Description(s) of tasks/responsibilities
+        {~ range .Highlights~}  \item {{~ . ~}}
+        {~end~}\end{cvitems}
+      }
   {~end~}
 {~end~}
 
+\end{cventries}
+%-------------------------------------------------------------------------------
+\cvsection{Education}
 
+\begin{cventries}
+
+{~ range .Education ~}
+  %---------------------------------------------------------
+  {~ $sch := . ~}
+  {~ range .Diplomas ~}
+    \cventry
+      {{~ .Title ~}} % Degree
+      {{~ $sch.School ~}} % Institution
+      {{~ $sch.Location.City ~}, {~ $sch.Location.CountryCode ~}} % Location
+      {{~ .ParsedEndDate.Year ~}} % Date(s)
+      {
+        \begin{cvitems} % Description(s)
+        {~ range .Courses~}  \item {{~ . ~}}
+        {~end~}\end{cvitems}
+      }
+  {~end~}
+{~end~}
+
+\end{cventries}
+%-------------------------------------------------------------------------------
+\cvsection{Skills}
+
+\begin{cvskills}
+
+%---------------------------------------------------------
+{~ range .SkillSets ~}
+  \cvskill
+    {{~ .Category ~}} % Category
+    {{~ range $key, $value := .Skills ~}{~$key~}; {~end~}} % Skills
+%---------------------------------------------------------
+{~end~}
+
+\end{cvskills}
 %-------------------------------------------------------------------------------
 \end{document}

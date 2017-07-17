@@ -1,6 +1,7 @@
 package schema
 
 import (
+	"fmt"
 	"strings"
 	"time"
 
@@ -37,4 +38,14 @@ func (w *Diploma) ParsedEndDate() time.Time {
 		logrus.WithError(err).Fatalf("Unable to parse endDate as '%s'.", w.EndDate)
 	}
 	return date
+}
+
+func (d *Diploma) DateRange() string {
+	startDate := d.ParsedStartDate()
+	if d.HasEndDate() {
+		endDate := d.ParsedEndDate()
+		return fmt.Sprintf("%s,%d - %s,%d", startDate.Month(), startDate.Year(), endDate.Month(), endDate.Year())
+	}
+
+	return fmt.Sprintf("%s,%d - ", startDate.Month(), startDate.Year())
 }
