@@ -1,5 +1,7 @@
 package schema
 
+import "time"
+
 // Resume is the resume information context holder
 type Resume struct {
 	Me    Persona `yaml:"info"`
@@ -14,4 +16,7 @@ type Resume struct {
 	SkillSets []SkillSet `yaml:"skillsets"`
 
 	Extras []string `yaml:"extras"`
+
+	Now      time.Time `yaml:"-"`
+	Revision string    `yaml:"-"`
 }
