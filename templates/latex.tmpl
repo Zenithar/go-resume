@@ -29,7 +29,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{awesome-emerald}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -53,22 +53,22 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
-\name{{~.Me.FirstName~}}{{~.Me.LastName~}}
-\position{{~ .Title ~}}
-\address{{~ .Me.Location.Address ~}, {~ .Me.Location.PostalCode ~} {~ .Me.Location.City ~}, {~ .Me.Location.CountryCode ~}}
+\name{{~.Me.FirstName | LatexEscape ~}}{{~.Me.LastName | LatexEscape ~}}
+\position{{~ .Title | LatexEscape ~}}
+\address{{~ .Me.Location.Address | LatexEscape ~}, {~ .Me.Location.PostalCode ~} {~ .Me.Location.City | LatexEscape  ~}, {~ .Me.Location.CountryCode | LatexEscape ~}}
 
-\mobile{{~ .Me.Contact.Mobile ~}}
-\email{{~ .Me.Contact.Email ~}}
-\homepage{{~ .Me.Contact.Website ~}}
-{~ if .Me.HasProfile "github" ~}\github{{~ (index .Me.Profiles "github").Username ~}}{~end~}
-{~ if .Me.HasProfile "linkedin" ~}\linkedin{{~ (index .Me.Profiles "linkedin").Username ~}}{~end~}
-{~ if .Me.HasProfile "gitlab" ~}\gitlab{{~ (index .Me.Profiles "gitlab").Username ~}}{~end~}
-{~ if .Me.HasProfile "stackoverflow" ~}\stackoverflow{{~ (index .Me.Profiles "stackoverflow").Username ~}}{~end~}
-{~ if .Me.HasProfile "twitter" ~}\twitter{{~ (index .Me.Profiles "twitter").Username ~}}{~end~}
-{~ if .Me.HasProfile "skype" ~}\skype{{~ (index .Me.Profiles "skype").Username ~}}{~end~}
-{~ if .Me.HasProfile "reddit" ~}\reddit{{~ (index .Me.Profiles "reddit").Username ~}}{~end~}
+\mobile{{~ .Me.Contact.Mobile | LatexEscape ~}}
+\email{{~ .Me.Contact.Email | LatexEscape ~}}
+\homepage{{~ .Me.Contact.Website | LatexEscape ~}}
+{~ if .Me.HasProfile "github" ~}\github{{~ (index .Me.Profiles "github").Username | LatexEscape ~}}{~end~}
+{~ if .Me.HasProfile "linkedin" ~}\linkedin{{~ (index .Me.Profiles "linkedin").Username | LatexEscape ~}}{~end~}
+{~ if .Me.HasProfile "gitlab" ~}\gitlab{{~ (index .Me.Profiles "gitlab").Username | LatexEscape ~}}{~end~}
+{~ if .Me.HasProfile "stackoverflow" ~}\stackoverflow{{~ (index .Me.Profiles "stackoverflow").Username | LatexEscape ~}}{~end~}
+{~ if .Me.HasProfile "twitter" ~}\twitter{{~ (index .Me.Profiles "twitter").Username | LatexEscape ~}}{~end~}
+{~ if .Me.HasProfile "skype" ~}\skype{{~ (index .Me.Profiles "skype").Username | LatexEscape ~}}{~end~}
+{~ if .Me.HasProfile "reddit" ~}\reddit{{~ (index .Me.Profiles "reddit").Username | LatexEscape ~}}{~end~}
 
-\quote{``{~ .Quote ~}"}
+\quote{``{~ .Quote | LatexEscape ~}"}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -81,7 +81,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {{~ .Me.FirstName ~} {~ .Me.LastName ~}~~~·~~~Curriculum Vitae}
+  {{~ .Me.FirstName | LatexEscape ~} {~ .Me.LastName | LatexEscape ~}~~~·~~~Curriculum Vitae}
   {\thepage}
 
 %-------------------------------------------------------------------------------
@@ -94,13 +94,13 @@
   {~ $org := . ~}
   {~ range .Positions ~}
     \cventry
-      {{~ .Title ~}} % Job title
-      {{~ $org.Title ~}} % Organization
-      {{~ $org.Location.City ~}, {~ $org.Location.CountryCode ~}} % Location
+      {{~ .Title | LatexEscape ~}} % Job title
+      {{~ $org.Title | LatexEscape ~}} % Organization
+      {{~ $org.Location.City | LatexEscape ~}, {~ $org.Location.CountryCode | LatexEscape ~}} % Location
       {{~ .DateRange ~}} % Date(s)
       {
         \begin{cvitems} % Description(s) of tasks/responsibilities
-        {~ range .Highlights~}  \item {{~ . ~}}
+        {~ range .Highlights~}  \item {{~ . | LatexEscape ~}}
         {~end~}\end{cvitems}
       }
   {~end~}
@@ -117,13 +117,13 @@
   {~ $sch := . ~}
   {~ range .Diplomas ~}
     \cventry
-      {{~ .Title ~}} % Degree
-      {{~ $sch.School ~}} % Institution
-      {{~ $sch.Location.City ~}, {~ $sch.Location.CountryCode ~}} % Location
+      {{~ .Title | LatexEscape ~}} % Degree
+      {{~ $sch.School | LatexEscape ~}} % Institution
+      {{~ $sch.Location.City | LatexEscape ~}, {~ $sch.Location.CountryCode | LatexEscape ~}} % Location
       {{~ .ParsedEndDate.Year ~}} % Date(s)
       {
         \begin{cvitems} % Description(s)
-        {~ range .Courses~}  \item {{~ . ~}}
+        {~ range .Courses~}  \item {{~ . | LatexEscape ~}}
         {~end~}\end{cvitems}
       }
   {~end~}
@@ -138,8 +138,8 @@
 %---------------------------------------------------------
 {~ range .SkillSets ~}
   \cvskill
-    {{~ .Category ~}} % Category
-    {{~ range $key, $value := .Skills ~}{~$key~}; {~end~}} % Skills
+    {{~ .Category | LatexEscape ~}} % Category
+    {{~ range $key, $value := .Skills ~}{~ $key  | LatexEscape ~}; {~end~}} % Skills
 %---------------------------------------------------------
 {~end~}
 

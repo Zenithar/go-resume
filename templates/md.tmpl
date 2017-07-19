@@ -15,10 +15,10 @@ date: {~.Me.DateOfBirth~}
 
 > {~.Summary~}
 
- - Profil de postes souhaités : {~range .Expectations.Jobs~}{~.~}; {~end~}
+ - Profil de postes souhaités : {~range .Expectations.Jobs~}{~ . ~}; {~end~}
  - Domaines : {~range .Expectations.Domains~}{~.~}; {~end~}
 
-Retrouvez-moi sur {~range .Me.Profiles~}[{~.Network~}]({~.URL~}); {~end~}
+Retrouvez-moi sur {~ range $key, $value := .Me.Profiles ~}[{~ $key ~}]({~ $value.URL ~}); {~end~}
 
 ### Expérience professionnelle
 

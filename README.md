@@ -25,7 +25,7 @@ nouveaux savoirs.
  - Profil de postes souhaités : Architecte Solution; Développeur FullStack; Expertise Technique; Conseil; 
  - Domaines : Cyber Sécurité; Big Data; Machine learning; Blockchain; IoT; 
 
-Retrouvez-moi sur [twitter](https://twitter.com/zenithar); [linkedin](https://www.linkedin.com/in/zenithar); [facebook](https://www.facebook.com/zenithar); [github](https://github.com/zenithar); [mastodon](https://mamot.fr/@zenithar); 
+Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https://github.com/zenithar); [linkedin](https://www.linkedin.com/in/zenithar); [mastodon](https://mamot.fr/@zenithar); [twitter](https://twitter.com/zenithar); 
 
 ### Expérience professionnelle
 

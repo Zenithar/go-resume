@@ -41,8 +41,8 @@ func (w *Work) DateRange() string {
 	startDate := w.ParsedStartDate()
 	if w.HasEndDate() {
 		endDate := w.ParsedEndDate()
-		return fmt.Sprintf("%s,%d - %s,%d", startDate.Month(), startDate.Year(), endDate.Month(), endDate.Year())
+		return fmt.Sprintf("%s %d - %s %d", startDate.Month(), startDate.Year(), endDate.Month(), endDate.Year())
 	}
 
-	return fmt.Sprintf("%s,%d - ", startDate.Month(), startDate.Year())
+	return fmt.Sprintf("%s %d - ", startDate.Month(), startDate.Year())
 }

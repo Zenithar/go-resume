@@ -44,8 +44,8 @@ func (d *Diploma) DateRange() string {
 	startDate := d.ParsedStartDate()
 	if d.HasEndDate() {
 		endDate := d.ParsedEndDate()
-		return fmt.Sprintf("%s,%d - %s,%d", startDate.Month(), startDate.Year(), endDate.Month(), endDate.Year())
+		return fmt.Sprintf("%s %d - %s %d", startDate.Month(), startDate.Year(), endDate.Month(), endDate.Year())
 	}
 
-	return fmt.Sprintf("%s,%d - ", startDate.Month(), startDate.Year())
+	return fmt.Sprintf("%s %d - ", startDate.Month(), startDate.Year())
 }
