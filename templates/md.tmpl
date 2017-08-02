@@ -41,6 +41,8 @@ Retrouvez-moi sur {~ range $key, $value := .Me.Profiles ~}[{~ $key ~}]({~ $value
 
 ### Compétences
 
+> 5: *Expertise*, 4: _Je connais_, 3: _Je peux_, 2: _J'apprends_, 1: _Vraiment si besoin !_
+
 {~ range .SkillSets ~}
 - **{~ index .Category "fr" ~}**
 {~ range $level := .Levels ~}

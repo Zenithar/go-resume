@@ -156,6 +156,8 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
 
 ### Compétences
 
+> 5: *Expertise*, 4: _Je connais_, 3: _Je peux_, 2: _J'apprends_, 1: _Vraiment si besoin !_
+
 
 - **Fonctionnelles**
 
