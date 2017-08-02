@@ -32,6 +32,7 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
 - [N/C]() - Industriel (R&D) - Toulouse, FR
   
   * **Cyber Security Engineer** - Depuis June,2017
+    - Recommandations Sécurité IoT. (MQTT)
     - Métrologie opérationnelle et sécurité. (Prometheus)
     - Conception d'alertes Sécurité centrées sur la capacité de réponse aux incidents.
     - Etude et analyse de risque ISO2700x.
@@ -164,18 +165,16 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
 
 - **Sécurité**
 
-  * _(5/5)_ : Programmation défensive; OWASP Top 10; SANS Top 25; Cuckoo Sandbox; 
-  * _(4/5)_ : Audit de code; Cryptographie / Chiffrement; Reverse Engineering Java; Durcissement infrastructure / machine / logiciel; 
-  * _(3/5)_ : Analyse de risque (EBIOS); RGPD; Suricata; Bro IDS; Honeypots (Cowerie / Kippo); DNS / SMTP Sinkhole; QRadar SIEM; Splunk; AlienVault; 
-  * _(2/5)_ : Reverse Engineering; 
-  * _(1/5)_ : Penetration Testing; 
+  * _(5/5)_ : Programmation défensive; Contre-mesures Sécurité; OWASP Top 10; SANS Top 25; 
+  * _(4/5)_ : Audit de code; Cryptographie / Chiffrement; Durcissement Logiciel / Conteneur; Cuckoo Sandbox; 
+  * _(3/5)_ : Analyse de risque (EBIOS); RGPD; Suricata; Bro IDS; Honeypots (Cowerie / Kippo); DNS / SMTP Sinkhole; QRadar SIEM; Splunk; FileBeat / PacketBeat; 
+  * _(2/5)_ : Reverse Engineering; Penetration Testing; 
 
 - **Langages**
 
   * _(5/5)_ : Go; JavaScript; Java; 
   * _(4/5)_ : C/C++; Ruby; Python; 
-  * _(3/5)_ : Scala; Elixir; 
-  * _(2/5)_ : ASM (x86, ARM7); 
+  * _(3/5)_ : Scala; Elixir; Erlang; ASM (x86, ARM7); 
 
 - **Base de données**
 
@@ -197,31 +196,30 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
 
 - **Backend Framework**
 
-  * _(5/5)_ : gRPC / Protobuf; 
+  * _(5/5)_ : Microservices Patterns; Resilience Patterns; gRPC / Protobuf; 
   * _(4/5)_ : NodeJS; Express; 
-  * _(3/5)_ : MeteorJS; Ruby on Rails; Flask; 
-  * _(2/5)_ : Django; Play ! Framework; 
+  * _(3/5)_ : MeteorJS; Ruby on Rails; 
 
 - **DevOps**
 
-  * _(5/5)_ : Docker; Rancher; Prometheus; 
+  * _(5/5)_ : Docker; Rancher; Prometheus; Consul; Vault; 
   * _(4/5)_ : Grafana; GitlabCI; Sentry; 
-  * _(3/5)_ : Kubernetes; Jenkins; LogStash; 
-  * _(2/5)_ : Ansible; Amazon AWS; 
+  * _(3/5)_ : Kubernetes; Jenkins; 
+  * _(2/5)_ : Ansible; Amazon AWS; Istio; Terraform; 
 
 - **Frontend / UX**
 
   * _(5/5)_ : AngularJS 1.x; 
   * _(4/5)_ : ES 6/7; TypeScript; VueJS; WebPack; Bootstrap; 
-  * _(3/5)_ : ReactJS; HTML5; CSS3 / SASS / LESS; Web Design; 
-  * _(2/5)_ : AngularJS 2.x; 
+  * _(3/5)_ : HTML5; CSS3 / SASS / LESS; Web Design; 
+  * _(2/5)_ : ReactJS; AngularJS 2.x; 
 
 - **Ingénierie des données**
 
   * _(5/5)_ : Modélisation Sémantique; Préparation des données; Data Wrangling; Data Scraping; 
-  * _(4/5)_ : Python / Jupyter / Pandas; Protégé; Anonymisation; 
-  * _(3/5)_ : Traitement du signal; Detection d'anomalie; Statistiques; Machine learning (SVM, PNN, RF, GBM); H2o; SciKit Learn; Pandas; R; 
-  * _(2/5)_ : DataViz; D3; 
+  * _(4/5)_ : Protégé; Anonymisation; ElasticSearch / LogStash / Kibana; 
+  * _(3/5)_ : Traitement du signal; Detection d'anomalies; Statistiques; Python / Jupyter / Pandas; SciKit Learn; Machine learning (SVM, PNN, RF, GBM); H2o; 
+  * _(2/5)_ : R; DataViz; D3; 
 
 - **Blockchain**
 
@@ -230,9 +228,9 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
 
 - **Java**
 
-  * _(5/5)_ : Spring (Core, MVC, Security Data); 
-  * _(4/5)_ : J2EE; Apache Storm; 
-  * _(3/5)_ : Apache Spark; Apache Kafka; Zookeeper; 
+  * _(5/5)_ : Spring (Core, MVC, Security, Data); 
+  * _(4/5)_ : Spring Boot; J2EE; Apache Storm; 
+  * _(3/5)_ : Apache Spark; Apache Kafka; Zookeeper; Vert.x; 
 
 
 ### Références

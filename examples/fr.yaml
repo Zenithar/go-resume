@@ -47,6 +47,7 @@ companies:
       - title: "Cyber Security Engineer"
         startDate: "2017-06-18"
         highlights:
+          - Recommandations Sécurité IoT. (MQTT)
           - Métrologie opérationnelle et sécurité. (Prometheus)
           - Conception d'alertes Sécurité centrées sur la capacité de réponse aux incidents.
           - Etude et analyse de risque ISO2700x.

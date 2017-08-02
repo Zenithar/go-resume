@@ -1,6 +1,6 @@
 - category:
     fr: Fonctionnelles
-    en: Non Technical
+    en: Non-Technicals
   levels:
     - level: 5
       skills:
@@ -28,24 +28,34 @@
     en: Security
   levels:
     - level: 5
+      description:
+        fr: Je conseille
+        en: I advice
       skills:
         - fr: Programmation défensive
           en: Defensive Programming
+        - fr: Contre-mesures Sécurité
+          en: Security Threat Countermeasures
       technologies:
         - OWASP Top 10
         - SANS Top 25
-        - Cuckoo Sandbox
     - level: 4
+      description:
+        fr: Je fais
+        en: I do
       skills:
         - fr: Audit de code
           en: Code audit
         - fr: Cryptographie / Chiffrement
           en: Cryptography / Cipher
-        - fr: Reverse Engineering Java
-          en: Java Reverse Engineering
-        - fr: Durcissement infrastructure / machine / logiciel
-          en: Infrastructure / Machine / Software Hardening
+        - fr: Durcissement Logiciel / Conteneur
+          en: Container / Software Hardening
+      technologies:
+        - Cuckoo Sandbox
     - level: 3
+      description:
+        fr: J'ai fait
+        en: I've done
       technologies:
         - Suricata
         - Bro IDS
@@ -53,17 +63,18 @@
         - DNS / SMTP Sinkhole
         - QRadar SIEM
         - Splunk
-        - AlienVault
+        - FileBeat / PacketBeat
       skills:
         - fr: Analyse de risque (EBIOS)
           en: Risk Analysis (EBIOS)
         - fr: RGPD
           en: GDPR
     - level: 2
+      description:
+        fr: Je sais
+        en: I know
       technologies:
         - Reverse Engineering
-    - level: 1
-      technologies:
         - Penetration Testing
 
 - category:
@@ -71,21 +82,29 @@
     en: Languages
   levels:
     - level: 5
+      description:
+        fr: Je conseille
+        en: I advice
       technologies:
         - Go
         - JavaScript
         - Java
     - level: 4
+      description:
+        fr: Je fais
+        en: I do
       technologies:
         - C/C++
         - Ruby
         - Python
     - level: 3
+      description:
+        fr: Je connais
+        en: I know
       technologies:
         - Scala
         - Elixir
-    - level: 2
-      technologies:
+        - Erlang
         - ASM (x86, ARM7)
 
 - category:
@@ -94,16 +113,16 @@
   levels:
     - level: 5
       description:
-        fr: Administration / Utilisation fréquentes
-        en: Frequent usage / administration
+        fr: Je conseille
+        en: I advice
       technologies:
         - MongoDB
         - RethinkDB
         - Redis
     - level: 4
       description:
-        fr: Utilisation avancée
-        en: Advanced usage
+        fr: Je fais
+        en: I do
       technologies:
         - Neo4j
         - ElasticSearch
@@ -111,8 +130,8 @@
         - PostgreSQL
     - level: 3
       description:
-        fr: Déjà utilisé
-        en: Already used
+        fr: Je sais
+        en: I know
       technologies:
         - Hadoop / HBase
         - Oracle
@@ -147,7 +166,7 @@
     - level: 4
       skills:
         - fr: Développement Frontend
-          en: Fronted Development
+          en: Frontend Development
     - level: 2
       skills:
         - fr: UI/UX Designer
@@ -159,6 +178,8 @@
   levels:
     - level: 5
       technologies:
+        - Microservices Patterns
+        - Resilience Patterns
         - gRPC / Protobuf
     - level: 4
       technologies:
@@ -168,11 +189,6 @@
       technologies:
         - MeteorJS
         - Ruby on Rails
-        - Flask
-    - level: 2
-      technologies:
-        - Django
-        - Play ! Framework
 
 - category:
     fr: DevOps
@@ -183,6 +199,8 @@
         - Docker
         - Rancher
         - Prometheus
+        - Consul
+        - Vault
     - level: 4
       technologies:
         - Grafana
@@ -192,11 +210,12 @@
       technologies:
         - Kubernetes
         - Jenkins
-        - LogStash
     - level: 2
       technologies:
         - Ansible
         - Amazon AWS
+        - Istio
+        - Terraform
 
 - category:
     fr: Frontend / UX
@@ -214,12 +233,12 @@
         - Bootstrap
     - level: 3
       technologies:
-        - ReactJS
         - HTML5
         - CSS3 / SASS / LESS
         - Web Design
     - level: 2
       technologies:
+        - ReactJS
         - AngularJS 2.x
 
 - category:
@@ -237,25 +256,25 @@
           en: Data Preparation
     - level: 4
       technologies:
-        - Python / Jupyter / Pandas
         - Protégé
         - Anonymisation
+        - ElasticSearch / LogStash / Kibana
     - level: 3
       technologies:
+        - Python / Jupyter / Pandas
+        - SciKit Learn
         - Machine learning (SVM, PNN, RF, GBM)
         - H2o
-        - SciKit Learn
-        - Pandas
-        - R
       skills:
         - fr: Traitement du signal
           en: Digital signal processing
-        - fr: Detection d'anomalie
+        - fr: Detection d'anomalies
           en: Anomaly detection
         - fr: Statistiques
           en: Statistics
     - level: 2
       technologies:
+        - R
         - DataViz
         - D3
 
@@ -276,9 +295,10 @@
   levels:
     - level: 5
       technologies:
-        - Spring (Core, MVC, Security Data)
+        - Spring (Core, MVC, Security, Data)
     - level: 4
       technologies:
+        - Spring Boot
         - J2EE
         - Apache Storm
     - level: 3
@@ -286,3 +306,4 @@
         - Apache Spark
         - Apache Kafka
         - Zookeeper
+        - Vert.x
