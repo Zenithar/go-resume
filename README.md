@@ -156,29 +156,83 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
 ### Compétences
 
 
-- **Fonctionnelles** - Conduite de réunion; Creative Thinking; Gestion de projet / Scrum Master; Présentation en public; Pédagogie / Vulgarisation; Rédaction publications scientifiques; Veille technologique; 
+- **Fonctionnelles**
 
-- **Affinités FullStack** - Administration; Backend; Frontend; UX/UI Designer; 
+  * _(5/5)_ : Creative Thinking; Veille technologique; 
+  * _(4/5)_ : Gestion de projet / Scrum Master; Conduite de réunion; Pédagogie / Vulgarisation; 
+  * _(3/5)_ : Rédaction publications scientifiques; Présentation en public; 
 
-- **Languages** - ASM (x86, ARM7); C/C++; Elixir; Go; Java; JavaScript; Python; Ruby; Scala; 
+- **Sécurité**
 
-- **Base de données** - DB2; ElasticSearch; Hadoop / HBase; MongoDB; MySQL / MariaDB; Neo4J; Oracle; PostgreSQL; Redis; RethinkDB; SQL Server; 
+  * _(5/5)_ : Programmation défensive; OWASP Top 10; SANS Top 25; Cuckoo Sandbox; 
+  * _(4/5)_ : Audit de code; Cryptographie / Chiffrement; Reverse Engineering Java; Durcissement infrastructure / machine / logiciel; 
+  * _(3/5)_ : Analyse de risque (EBIOS); RGPD; Suricata; Bro IDS; Honeypots (Cowerie / Kippo); DNS / SMTP Sinkhole; QRadar SIEM; Splunk; AlienVault; 
+  * _(2/5)_ : Reverse Engineering; 
+  * _(1/5)_ : Penetration Testing; 
 
-- **Système d'exploitation** - Linux (OS courant: ArchLinux); MacOSX; Windows; 
+- **Langages**
 
-- **Backend Framework** - Django; Express; Flask; Go; MeteorJS; NodeJS; Play! Framework; Ruby on Rails; gRPC / Protobuf; 
+  * _(5/5)_ : Go; JavaScript; Java; 
+  * _(4/5)_ : C/C++; Ruby; Python; 
+  * _(3/5)_ : Scala; Elixir; 
+  * _(2/5)_ : ASM (x86, ARM7); 
 
-- **DevOps** - Ansible; Docker; GitlabCI; Grafana; Jenkins; Kubernetes; LogStash; Prometheus; Rancher; Sentry; 
+- **Base de données**
 
-- **Frontend / UX** - AngularJS 1.x; AngularJS 2.x; Bootstrap; CSS3 / SASS / LESS; ES 6/7; HTML5; React; TypeScript; VueJS; Web Design; WebPack; 
+  * _(5/5)_ : MongoDB; RethinkDB; Redis; 
+  * _(4/5)_ : Neo4j; ElasticSearch; MySQL / MariaDB; PostgreSQL; 
+  * _(3/5)_ : Hadoop / HBase; Oracle; SQL Server; DB2; 
 
-- **Ingénierie des données** - Anonymisation; D3; ElasticSearch / LogStash / Kibana (ELK); H2o; Machine learning (SVM, PNN, RF, GBM); Maltego; Protégé; Python / Jupyter / Pandas; QlikView; R; SciKit Learn; Statistiques; Traitement du signal; 
+- **Système d'exploitation**
 
-- **Sécurité** - Analyse des risques (EBIOS); Audit de code; Bro IDS; Cryptographie / Chiffrement; Cuckoo Sandbox; DNS / SMTP Sinkhole; Durcissement infrastructure / machine / logiciel; Honeypots (Cowerie / Kippo); OWASP Top 10; Penetration Testing; Programmation défensive; RE: Java; RGPD; Reverse Engineering; SANS Top 25; Suricata; 
+  * _(5/5)_ : Linux / Archlinux; 
+  * _(4/5)_ : MacOS X; 
+  * _(3/5)_ : Windows; 
 
-- **Blockchain** - Ethereum; IBM Hyperledger; 
+- **Affinités FullStack**
 
-- **Java** - Apache Kafka; Apache Spark; Apache Storm; J2EE; Spring (Core, MVC, Security Data); Zookeeper; 
+  * _(5/5)_ : Développement Backend; DevOps; 
+  * _(4/5)_ : Développement Frontend; 
+  * _(2/5)_ : UI/UX Designer; 
+
+- **Backend Framework**
+
+  * _(5/5)_ : gRPC / Protobuf; 
+  * _(4/5)_ : NodeJS; Express; 
+  * _(3/5)_ : MeteorJS; Ruby on Rails; Flask; 
+  * _(2/5)_ : Django; Play ! Framework; 
+
+- **DevOps**
+
+  * _(5/5)_ : Docker; Rancher; Prometheus; 
+  * _(4/5)_ : Grafana; GitlabCI; Sentry; 
+  * _(3/5)_ : Kubernetes; Jenkins; LogStash; 
+  * _(2/5)_ : Ansible; Amazon AWS; 
+
+- **Frontend / UX**
+
+  * _(5/5)_ : AngularJS 1.x; 
+  * _(4/5)_ : ES 6/7; TypeScript; VueJS; WebPack; Bootstrap; 
+  * _(3/5)_ : ReactJS; HTML5; CSS3 / SASS / LESS; Web Design; 
+  * _(2/5)_ : AngularJS 2.x; 
+
+- **Ingénierie des données**
+
+  * _(5/5)_ : Modélisation Sémantique; Préparation des données; Data Wrangling; Data Scraping; 
+  * _(4/5)_ : Python / Jupyter / Pandas; Protégé; Anonymisation; 
+  * _(3/5)_ : Traitement du signal; Detection d'anomalie; Statistiques; Machine learning (SVM, PNN, RF, GBM); H2o; SciKit Learn; Pandas; R; 
+  * _(2/5)_ : DataViz; D3; 
+
+- **Blockchain**
+
+  * _(4/5)_ : Ethereum; 
+  * _(3/5)_ : IBM Hyperledger; 
+
+- **Java**
+
+  * _(5/5)_ : Spring (Core, MVC, Security Data); 
+  * _(4/5)_ : J2EE; Apache Storm; 
+  * _(3/5)_ : Apache Spark; Apache Kafka; Zookeeper; 
 
 
 ### Références

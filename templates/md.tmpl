@@ -42,7 +42,9 @@ Retrouvez-moi sur {~ range $key, $value := .Me.Profiles ~}[{~ $key ~}]({~ $value
 ### Compétences
 
 {~ range .SkillSets ~}
-- **{~.Category~}** - {~ range $key, $value := .Skills ~}{~$key~}; {~end~}
+- **{~ index .Category "fr" ~}**
+{~ range $level := .Levels ~}
+  * _({~ $level.Level ~}/5)_ : {~ range .Skills ~}{~ index . "fr" ~}; {~ end ~}{~ range .Technologies ~}{~ . ~}; {~ end ~}{~end~}
 {~end~}
 
 ### Références

@@ -1,0 +1,288 @@
+- category:
+    fr: Fonctionnelles
+    en: Non Technical
+  levels:
+    - level: 5
+      skills:
+        - fr: Creative Thinking
+          en: Creative Thinking
+        - fr: Veille technologique
+          en: Technology watch
+    - level: 4
+      skills:
+        - fr: Gestion de projet / Scrum Master
+          en: Project Management / Scrum Master
+        - fr: Conduite de réunion
+          en: Meeting lead
+        - fr: Pédagogie / Vulgarisation
+          en: Pedagogy / Vulgarisation
+    - level: 3
+      skills:
+        - fr: Rédaction publications scientifiques
+          en: Scientific publication writeup
+        - fr: Présentation en public
+          en: Public talks
+
+- category:
+    fr: "Sécurité"
+    en: Security
+  levels:
+    - level: 5
+      skills:
+        - fr: Programmation défensive
+          en: Defensive Programming
+      technologies:
+        - OWASP Top 10
+        - SANS Top 25
+        - Cuckoo Sandbox
+    - level: 4
+      skills:
+        - fr: Audit de code
+          en: Code audit
+        - fr: Cryptographie / Chiffrement
+          en: Cryptography / Cipher
+        - fr: Reverse Engineering Java
+          en: Java Reverse Engineering
+        - fr: Durcissement infrastructure / machine / logiciel
+          en: Infrastructure / Machine / Software Hardening
+    - level: 3
+      technologies:
+        - Suricata
+        - Bro IDS
+        - Honeypots (Cowerie / Kippo)
+        - DNS / SMTP Sinkhole
+        - QRadar SIEM
+        - Splunk
+        - AlienVault
+      skills:
+        - fr: Analyse de risque (EBIOS)
+          en: Risk Analysis (EBIOS)
+        - fr: RGPD
+          en: GDPR
+    - level: 2
+      technologies:
+        - Reverse Engineering
+    - level: 1
+      technologies:
+        - Penetration Testing
+
+- category:
+    fr: Langages
+    en: Languages
+  levels:
+    - level: 5
+      technologies:
+        - Go
+        - JavaScript
+        - Java
+    - level: 4
+      technologies:
+        - C/C++
+        - Ruby
+        - Python
+    - level: 3
+      technologies:
+        - Scala
+        - Elixir
+    - level: 2
+      technologies:
+        - ASM (x86, ARM7)
+
+- category:
+    fr: Base de données
+    en: Databases
+  levels:
+    - level: 5
+      description:
+        fr: Administration / Utilisation fréquentes
+        en: Frequent usage / administration
+      technologies:
+        - MongoDB
+        - RethinkDB
+        - Redis
+    - level: 4
+      description:
+        fr: Utilisation avancée
+        en: Advanced usage
+      technologies:
+        - Neo4j
+        - ElasticSearch
+        - MySQL / MariaDB
+        - PostgreSQL
+    - level: 3
+      description:
+        fr: Déjà utilisé
+        en: Already used
+      technologies:
+        - Hadoop / HBase
+        - Oracle
+        - SQL Server
+        - DB2
+
+- category:
+    fr: Système d'exploitation
+    en: Operating Systems
+  levels:
+    - level: 5
+      technologies:
+        - Linux / Archlinux
+    - level: 4
+      technologies:
+        - MacOS X
+    - level: 3
+      technologies:
+        - Windows
+
+
+- category:
+    fr: Affinités FullStack
+    en: FullStack Affinities
+  levels:
+    - level: 5
+      skills:
+        - fr: Développement Backend
+          en: Backend Development
+        - fr: DevOps
+          en: DevOps
+    - level: 4
+      skills:
+        - fr: Développement Frontend
+          en: Fronted Development
+    - level: 2
+      skills:
+        - fr: UI/UX Designer
+          en: UI/UX Desginer
+
+- category:
+    fr: Backend Framework
+    en: Backend Framework
+  levels:
+    - level: 5
+      technologies:
+        - gRPC / Protobuf
+    - level: 4
+      technologies:
+        - NodeJS
+        - Express
+    - level: 3
+      technologies:
+        - MeteorJS
+        - Ruby on Rails
+        - Flask
+    - level: 2
+      technologies:
+        - Django
+        - Play ! Framework
+
+- category:
+    fr: DevOps
+    en: DevOps
+  levels:
+    - level: 5
+      technologies:
+        - Docker
+        - Rancher
+        - Prometheus
+    - level: 4
+      technologies:
+        - Grafana
+        - GitlabCI
+        - Sentry
+    - level: 3
+      technologies:
+        - Kubernetes
+        - Jenkins
+        - LogStash
+    - level: 2
+      technologies:
+        - Ansible
+        - Amazon AWS
+
+- category:
+    fr: Frontend / UX
+    en: Frontend / UX
+  levels:
+    - level: 5
+      technologies:
+        - AngularJS 1.x
+    - level: 4
+      technologies:
+        - ES 6/7
+        - TypeScript
+        - VueJS
+        - WebPack
+        - Bootstrap
+    - level: 3
+      technologies:
+        - ReactJS
+        - HTML5
+        - CSS3 / SASS / LESS
+        - Web Design
+    - level: 2
+      technologies:
+        - AngularJS 2.x
+
+- category:
+    fr: "Ingénierie des données"
+    en: "Data Engineering"
+  levels:
+    - level: 5
+      technologies:
+        - Data Wrangling
+        - Data Scraping
+      skills:
+        - fr: Modélisation Sémantique
+          en: Semantic Modeling
+        - fr: Préparation des données
+          en: Data Preparation
+    - level: 4
+      technologies:
+        - Python / Jupyter / Pandas
+        - Protégé
+        - Anonymisation
+    - level: 3
+      technologies:
+        - Machine learning (SVM, PNN, RF, GBM)
+        - H2o
+        - SciKit Learn
+        - Pandas
+        - R
+      skills:
+        - fr: Traitement du signal
+          en: Digital signal processing
+        - fr: Detection d'anomalie
+          en: Anomaly detection
+        - fr: Statistiques
+          en: Statistics
+    - level: 2
+      technologies:
+        - DataViz
+        - D3
+
+- category:
+    fr: "Blockchain"
+    en: Blockchain
+  levels:
+    - level: 4
+      technologies:
+        - Ethereum
+    - level: 3
+      technologies:
+        - IBM Hyperledger
+
+- category:
+    fr: Java
+    en: Java
+  levels:
+    - level: 5
+      technologies:
+        - Spring (Core, MVC, Security Data)
+    - level: 4
+      technologies:
+        - J2EE
+        - Apache Storm
+    - level: 3
+      technologies:
+        - Apache Spark
+        - Apache Kafka
+        - Zookeeper
