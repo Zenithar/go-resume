@@ -103,9 +103,11 @@
         en: I know
       technologies:
         - Scala
+        - ASM (x86, ARM7)
+    - level: 2
+      technologies:
         - Elixir
         - Erlang
-        - ASM (x86, ARM7)
 
 - category:
     fr: Base de données
@@ -167,7 +169,7 @@
       skills:
         - fr: Développement Frontend
           en: Frontend Development
-    - level: 2
+    - level: 1
       skills:
         - fr: UI/UX Designer
           en: UI/UX Desginer

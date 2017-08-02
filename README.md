@@ -176,7 +176,8 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
 
   * _(5/5)_ : Go; JavaScript; Java; 
   * _(4/5)_ : C/C++; Ruby; Python; 
-  * _(3/5)_ : Scala; Elixir; Erlang; ASM (x86, ARM7); 
+  * _(3/5)_ : Scala; ASM (x86, ARM7); 
+  * _(2/5)_ : Elixir; Erlang; 
 
 - **Base de données**
 
@@ -194,7 +195,7 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
 
   * _(5/5)_ : Développement Backend; DevOps; 
   * _(4/5)_ : Développement Frontend; 
-  * _(2/5)_ : UI/UX Designer; 
+  * _(1/5)_ : UI/UX Designer; 
 
 - **Backend Framework**
 
