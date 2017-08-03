@@ -142,7 +142,7 @@
                     {~ range .Positions ~}
                         <fo:table-row>
                             <fo:table-cell text-align="left">
-                                <fo:block font-style="italic">{~ .Title | HtmlEscape ~}</fo:block>
+                                <fo:block font-style="italic">{~ if .Trainee ~}Stagiaire - {~ end ~}{~ .Title | HtmlEscape ~}</fo:block>
                             </fo:table-cell>
                             <fo:table-cell text-align="right">
                                 <fo:block font-style="italic">
@@ -229,6 +229,28 @@
       </fo:block-container>
       <!-- /Formations -->
 
+      <!-- Langues -->
+      <fo:block-container space-before="12pt" id="languages">
+          <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+            Langues
+          </fo:block>
+          <fo:block space-before="4pt" space-after="8pt">
+            <fo:list-block margin-left="12pt" font-size="80%">
+                {~ range .Languages ~}
+                    <fo:list-item>
+                        <fo:list-item-label end-indent="label-end()">
+                            <fo:block>&#8250;</fo:block>
+                        </fo:list-item-label>
+                        <fo:list-item-body start-indent="body-start()">
+                            <fo:block>{~ .Name ~} - {~ .Level ~}</fo:block>
+                        </fo:list-item-body>
+                    </fo:list-item>
+                {~ end ~}
+            </fo:list-block>
+          </fo:block>
+      </fo:block-container>
+      <!-- /Langues -->
+
       <!-- competences / skills -->
       <fo:block-container space-before="12pt" id="skills">
         <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
@@ -237,15 +259,71 @@
         <fo:block space-before="4pt" space-after="8pt">
         {~ range .SkillSets ~}
             <fo:block space-before="4pt" font-weight="bold">
-              {~ .Category | HtmlEscape ~}
+              {~ index .Category "fr" | HtmlEscape ~}
             </fo:block>
             <fo:block font-size="80%">
-              {~ range $key, $value := .Skills ~}{~ $key | HtmlEscape ~}; {~ end ~}
+              {~ range .Levels ~}{~ range .Skills ~}{~ index . "fr" | HtmlEscape ~}; {~ end ~}{~ range .Technologies ~}{~ . | HtmlEscape ~}; {~ end ~}{~ end ~}
             </fo:block>
         {~ end ~}
         </fo:block>
       </fo:block-container>
       <!-- competences / skills -->
+
+      <!-- Social -->
+      <fo:block-container space-before="12pt" id="social">
+          <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+            Liens
+          </fo:block>
+          <fo:block space-before="4pt" space-after="8pt">
+            <fo:list-block margin-left="12pt" font-size="80%">
+                <fo:list-item>
+                    <fo:list-item-label end-indent="label-end()">
+                        <fo:block>&#8250;</fo:block>
+                    </fo:list-item-label>
+                    <fo:list-item-body start-indent="body-start()">
+                        <fo:block>
+                            <fo:basic-link external-destination="url('{~ .Me.Contact.Website ~}')">[site] - {~ .Me.Contact.Website ~}</fo:basic-link>
+                        </fo:block>
+                    </fo:list-item-body>
+                </fo:list-item>
+                {~ range $key, $value := .Me.Profiles ~}
+                <fo:list-item>
+                    <fo:list-item-label end-indent="label-end()">
+                        <fo:block>&#8250;</fo:block>
+                    </fo:list-item-label>
+                    <fo:list-item-body start-indent="body-start()">
+                        <fo:block>
+                            <fo:basic-link external-destination="url('{~ $value.URL ~}')">[{~ $key | HtmlEscape ~}] - {~ $value.URL ~}</fo:basic-link>
+                        </fo:block>
+                    </fo:list-item-body>
+                </fo:list-item>
+                {~ end ~}
+            </fo:list-block>
+          </fo:block>
+      </fo:block-container>
+      <!-- /Social -->
+
+      <!-- Extra -->
+      <fo:block-container space-before="12pt" id="misc">
+          <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+            Autres Activités hors Curriculum
+          </fo:block>
+          <fo:block space-before="4pt" space-after="8pt">
+            <fo:list-block margin-left="12pt" font-size="80%">
+                {~ range .Extras ~}
+                    <fo:list-item>
+                        <fo:list-item-label end-indent="label-end()">
+                            <fo:block>&#8250;</fo:block>
+                        </fo:list-item-label>
+                        <fo:list-item-body start-indent="body-start()">
+                            <fo:block>{~ . | HtmlEscape ~}</fo:block>
+                        </fo:list-item-body>
+                    </fo:list-item>
+                {~ end ~}
+            </fo:list-block>
+          </fo:block>
+      </fo:block-container>
+      <!-- /Extra -->
 
       <fo:block id="last-page-marker" />
     </fo:flow>

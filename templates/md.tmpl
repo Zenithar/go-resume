@@ -8,7 +8,6 @@ phone: {~.Me.Contact.Mobile~}
 email: {~.Me.Contact.Email~}
 date: {~.Me.DateOfBirth~}
 ...
-
 # {~.Title~}
 
 ### Résumé
@@ -19,6 +18,8 @@ date: {~.Me.DateOfBirth~}
  - Domaines : {~range .Expectations.Domains~}{~.~}; {~end~}
 
 Retrouvez-moi sur {~ range $key, $value := .Me.Profiles ~}[{~ $key ~}]({~ $value.URL ~}); {~end~}
+
+> Télécharger le [PDF](signed.pdf).
 
 ### Expérience professionnelle
 
@@ -37,6 +38,11 @@ Retrouvez-moi sur {~ range $key, $value := .Me.Profiles ~}[{~ $key ~}]({~ $value
   - {~ .ParsedEndDate.Year ~} - **{~ .Title ~}**
     > {~range .Courses~}{~.~}; {~end~}
   {~end~}
+{~end~}
+
+### Langues
+
+{~ range .Languages ~} - {~ .Name ~} - {~ .Level ~}
 {~end~}
 
 ### Compétences

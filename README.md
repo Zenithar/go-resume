@@ -8,7 +8,6 @@ phone: +33 668 666 636
 email: thibault.normand@gmail.com
 date: 1983-05-31
 ...
-
 # Cyber Security Engineer
 
 ### Résumé
@@ -25,19 +24,16 @@ nouveaux savoirs.
  - Profil de postes souhaités : Architecte Solution; Développeur FullStack; Expertise Technique; Conseil; 
  - Domaines : Cyber Sécurité; Big Data; Machine learning; Blockchain; IoT; 
 
-Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https://github.com/zenithar); [linkedin](https://www.linkedin.com/in/zenithar); [mastodon](https://mamot.fr/@zenithar); [twitter](https://twitter.com/zenithar); 
+Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.facebook.com/zenithar); [github](https://github.com/zenithar); [linkedin](https://www.linkedin.com/in/zenithar); [mastodon](https://mamot.fr/@zenithar); [twitter](https://twitter.com/zenithar); 
+
+> Télécharger le [PDF](signed.pdf).
 
 ### Expérience professionnelle
 
 - [N/C]() - Industriel (R&D) - Toulouse, FR
   
   * **Cyber Security Engineer** - Depuis June,2017
-    - Recommandations Sécurité IoT. (MQTT)
-    - Métrologie opérationnelle et sécurité. (Prometheus)
-    - Conception d'alertes Sécurité centrées sur la capacité de réponse aux incidents.
-    - Etude et analyse de risque ISO2700x.
-    - Exigences techniques pour conformité RGPD.
-    - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux.
+    - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux. (RGPD, ISO270xx)
     - Audit qualité et sécurité. (Java / J2EE / NodeJS / Python)
     
 
@@ -45,18 +41,13 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
   
   * **Cyber Security Engineer / Data Engineer / Full Stack Developer / DevOps** - De October,2013 à June,2017
     - Développement outils CERT / SOC.
-    - Portail de services client. (Go, RethinkDB, VueJS)
     - Outil de gestion d'incidents Jira / QRadar (Go, Javascript, RethinkDB)
-    - Wallboard temps réels pour suvi des métriques de services. (Elixir, Phoenix, Sass, VueJS)
     - Plateforme d'analyse de malware automatisée pour extraction d'IoC. (Go, RethinkDB, RabbitMQ, Docker, Cuckoo, VirusTotal, Yara, AngularJS 2)
     - Etude des régroupements de données IoC / IoA / observables. (R, Neo4j, ElasticSearch, Machine learning, Clustering)
     - Plateforme de centralisation d'indicateurs pour analyse sécurité "Technical Threat Intelligence". (Go, RabbitMQ, ElasticSearch, Neo4j, AngularJS)
-    - Plateforme de soumission et de séquestre de malwares. (Go, RabbitMQ, MongoDB)
     - Plateforme de centralisation et corrélation des bulletins sécurité. (Go, RabbitMQ, MongoDB, AngularJS)
     - Conception et réalisation d'un système embarqué type "boîte blanche" pour décontamination virale. (Go, AngularJS, Qt, ZMQ, Docker)
-    - Plateforme d'harmonisation et d'échanges de règles SIEM. (Go, MongoDB, AngularJS)
-    - Conception et réalisation de microservices: email (composition, envoi, signature), identification / autorisation, jetons, licences (Go, gRPC, Consul, Vault, Docker, Rancher)
-    - Tableaux de bords et métrologie logiciel. (Go, Prometheus, InfluxDB, ElasticSearch, Grafana)
+    - Microservices: email (composition, envoi, signature), identification / autorisation, jetons, licences (Go, gRPC, Consul, Vault, Docker, Rancher)
     - Audit qualité et sécurité. (Java / J2EE)
     - Encadrement stagiaires.
     
@@ -66,12 +57,9 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
   * **Ingénieur R&D / Scrum Master** - De January,2010 à October,2013
     - Plateforme de dépot sécurisé de fichier à haute valeur probante. (RabbitMQ, Protobuf, Scala/AKKA, Java, Spring, ElasticSearch, AngularJS)
     - Conception et réalisation d'un SSO basé sur OAUTH 2.0. (Java, Spring, JWT, PKI, PKCS#11, HOTP)
-    - Développements d'applications Javascript. (jQuery, Backbone.JS, CoffeeScript).
-    - Industrialisation de l'intégration continue. (Git, Jenkins, Sonar)
     - Industrialisation de la chaîne documentaire. (Git, Jenkins, Maven, Docbook5, XSLT, FOP)
-    - Interfaces de gestion de processus DB2 / Z/OS. (Java, Portlets)
     - Revue de code qualité et sécurité. (Java, J2EE)
-    - Maintenance de produits. (ClearCase, Java, Struts2, Eclipse RCP)
+    - Maintenance de produits. (ClearCase, Java, Struts2, Eclipse RCP, Z/OS)
     - Encadrement stagiaires.
     
 
@@ -152,6 +140,12 @@ Retrouvez-moi sur [facebook](https://www.facebook.com/zenithar); [github](https:
   - 2002 - **Bac S, Science de l'Ingénieur, spécialité Mathématiques**
     > Mathématiques; Mécanique; Electronique; Informatique; 
   
+
+
+### Langues
+
+ - Français - Langue maternelle
+ - Anglais - Lu, écrit et parlé
 
 
 ### Compétences

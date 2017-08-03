@@ -13,6 +13,7 @@ type Resume struct {
 
 	Companies []Company  `yaml:"companies"`
 	Education []School   `yaml:"education"`
+	Languages []Language `yaml:"languages"`
 	SkillSets []SkillSet `yaml:"skillsets"`
 
 	Extras []string `yaml:"extras"`
