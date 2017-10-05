@@ -3,7 +3,7 @@ package schema
 import (
 	"time"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 // Persona qualifies all information about CV owner

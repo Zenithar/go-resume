@@ -8,7 +8,7 @@ phone: +33 668 666 636
 email: thibault.normand@gmail.com
 date: 1983-05-31
 ...
-# Cyber Security Engineer
+# Senior Cyber Security Expert
 
 ### Résumé
 
@@ -30,16 +30,18 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 ### Expérience professionnelle
 
-- [N/C]() - Industriel (R&D) - Toulouse, FR
+- [N/C]() - Industriel (R&D) - Toulouse, France
   
-  * **Cyber Security Engineer** - Depuis June,2017
+  * **Senior Cyber Security Expert / Golang Guru** - Depuis June,2017
+    - Conception et réalisation d'une plateforme d'accès à la vitrine produits. (Go, VueJS)
+    - Audits et Exigences infrastructure sécurité pour projets "Cloud". (AWS)
     - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux. (RGPD, ISO270xx)
-    - Audit qualité et sécurité. (Java / J2EE / NodeJS / Python)
+    - Audits de code sécurité. (Java / J2EE / NodeJS / Python / Go / Crypto)
     
 
-- [Sogeti ESEC](https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/) - Securité (SSII) - Toulouse, FR
+- [Sogeti ESEC](https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/) - Securité (SSII) - Toulouse, France
   
-  * **Cyber Security Engineer / Data Engineer / Full Stack Developer / DevOps** - De October,2013 à June,2017
+  * **Cyber Security Expert / Data Architect / Full Stack Developer / DevOps** - De October,2013 à June,2017
     - Développement outils CERT / SOC.
     - Outil de gestion d'incidents Jira / QRadar (Go, Javascript, RethinkDB)
     - Plateforme d'analyse de malware automatisée pour extraction d'IoC. (Go, RethinkDB, RabbitMQ, Docker, Cuckoo, VirusTotal, Yara, AngularJS 2)
@@ -52,7 +54,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
     - Encadrement stagiaires.
     
 
-- [Infotel](http://www.infotel.com) - Mainframe (Editeur / R&D) - Toulouse, FR
+- [Infotel](http://www.infotel.com) - Mainframe (Editeur / R&D) - Toulouse, France
   
   * **Ingénieur R&D / Scrum Master** - De January,2010 à October,2013
     - Plateforme de dépot sécurisé de fichier à haute valeur probante. (RabbitMQ, Protobuf, Scala/AKKA, Java, Spring, ElasticSearch, AngularJS)
@@ -63,7 +65,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
     - Encadrement stagiaires.
     
 
-- [SCASSI Conseil](http://www.scassi.com) - Sécurité (SSII / Conseil) - Toulouse, FR
+- [SCASSI Conseil](http://www.scassi.com) - Sécurité (SSII / Conseil) - Toulouse, France
   
   * **Ingénieur Sécurité** - De July,2008 à December,2009
     - Conception et réalisation d'un outil d'analyse de risques basé sur la méthodologie EBIOS (SOA, J2EE, .Net)
@@ -79,14 +81,14 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
     - Penetration Testing sur applications Web J2EE.
     
 
-- [Opencube Technologies](http://www.opencubetech.com/) - Média Numérique (Editeur / R&D) - Toulouse, FR
+- [Opencube Technologies](http://www.opencubetech.com/) - Média Numérique (Editeur / R&D) - Toulouse, France
   
   * **Développeur, Stagiaire** - De March,2007 à September,2007
     - Réalisation d'une API d'exploitation de format d'échange de sous-titre DFXP. (Qt, C++)
     - Traitement du signal pour récupération de signaux télétexte. (Qt, C++)
     
 
-- [MEDES IMPS](http://www.medes.fr/) - Santé / Espace (Editeur / R&D) - Toulouse, FR
+- [MEDES IMPS](http://www.medes.fr/) - Santé / Espace (Editeur / R&D) - Toulouse, France
   
   * **Développeur, Stagiaire** - De March,2006 à September,2006
     - Conception et réalisation d'un composant graphique pour afficher des informations géolocalisées. (Java, Eclipse, RCP)
@@ -95,7 +97,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
     - Virtualisation Serveurs (Gentoo, Xen, VMWare)
     
 
-- [Karobas](http://www.karobas.fr/) - Jeux Vidéo (Editeur / R&D) - Sophia Antipolis, FR
+- [Karobas](http://www.karobas.fr/) - Jeux Vidéo (Editeur / R&D) - Sophia Antipolis, France
   
   * **Administrateur Système et Réseau, Stagiaire** - De March,2005 à August,2005
     - Conception / Restructuration du réseau de l'entreprise.
@@ -105,7 +107,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
     - Modélisation mondes ludo-educatifs (Virtools).
     
 
-- [Nice-antiques.com](http://www.karobas.fr/) - Art (Antiquaire) - Nice, FR
+- [Nice-antiques.com](http://www.karobas.fr/) - Art (Antiquaire) - Nice, France
   
   * **WebMaster, Stagiaire** - De March,2004 à July,2004
     - Conception et réalisation d'un site web dynamique. (PHP / MySQL)
@@ -116,7 +118,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 ### Formation
 
-- IUP ISI, Toulouse, FR
+- IUP ISI, Toulouse, France
   
   - 2008 - **M2 ISI - Métamodélisation et Temps réél critique**
     > Métamodélisation UML; J2EE; Programmation temps réél (ADA, C, SCADE); Droit; 
@@ -127,7 +129,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
   - 2006 - **L3 Ingénierie des Systèmes Informatiques**
     > Conception / Modélisation UML; Programmation (Java / C++ / C / ASM); Base de données; Mathématiques; Gestion / Economie; 
   
-- IUT Informatique, Nice, FR
+- IUT Informatique, Nice, France
   
   - 2005 - **Licence Professionnelle, Administration des Systèmes et des Réseaux (ASR)**
     > Réseau; Administration Systèmes (Unix, Windows); Base de données (Oracle); Mathématiques; Gestion / Economie; Droit; 
@@ -135,7 +137,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
   - 2004 - **DUT Informatique, Génie Logiciel**
     > Base de données; Programmation (Java / C++ / C); Réseau; Mathématiques; Gestion / Economie; 
   
-- Lycée Albert Camus, Fréjus, FR
+- Lycée Albert Camus, Fréjus, France
   
   - 2002 - **Bac S, Science de l'Ingénieur, spécialité Mathématiques**
     > Mathématiques; Mécanique; Electronique; Informatique; 
@@ -161,7 +163,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 - **Sécurité**
 
-  * _(5/5)_ : Programmation défensive; Contre-mesures Sécurité; OWASP Top 10; SANS Top 25; 
+  * _(5/5)_ : Programmation défensive; Contre-mesures sécurité; OWASP Top 10; SANS Top 25; 
   * _(4/5)_ : Audit de code; Cryptographie / Chiffrement; Durcissement Logiciel / Conteneur; Cuckoo Sandbox; 
   * _(3/5)_ : Analyse de risque (EBIOS); RGPD; Suricata; Bro IDS; Honeypots (Cowerie / Kippo); DNS / SMTP Sinkhole; QRadar SIEM; Splunk; FileBeat / PacketBeat; 
   * _(2/5)_ : Reverse Engineering; Penetration Testing; 
@@ -170,7 +172,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
   * _(5/5)_ : Go; JavaScript; Java; 
   * _(4/5)_ : C/C++; Ruby; Python; 
-  * _(3/5)_ : Scala; ASM (x86, ARM7); 
+  * _(3/5)_ : Scala; ASM (x86, ARM7); PHP; 
   * _(2/5)_ : Elixir; Erlang; 
 
 - **Base de données**
@@ -178,6 +180,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
   * _(5/5)_ : MongoDB; RethinkDB; Redis; 
   * _(4/5)_ : Neo4j; ElasticSearch; MySQL / MariaDB; PostgreSQL; 
   * _(3/5)_ : Hadoop / HBase; Oracle; SQL Server; DB2; 
+  * _(2/5)_ : DGraph / GraphQL; 
 
 - **Système d'exploitation**
 
@@ -196,20 +199,21 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
   * _(5/5)_ : Microservices Patterns; Resilience Patterns; gRPC / Protobuf; 
   * _(4/5)_ : NodeJS; Express; 
   * _(3/5)_ : MeteorJS; Ruby on Rails; 
+  * _(2/5)_ : Laravel; 
 
 - **DevOps**
 
   * _(5/5)_ : Docker; Rancher; Prometheus; Consul; Vault; 
   * _(4/5)_ : Grafana; GitlabCI; Sentry; 
   * _(3/5)_ : Kubernetes; Jenkins; 
-  * _(2/5)_ : Ansible; Amazon AWS; Istio; Terraform; 
+  * _(2/5)_ : Ansible; Amazon AWS; Istio / Envoy; Terraform; 
 
 - **Frontend / UX**
 
   * _(5/5)_ : AngularJS 1.x; 
-  * _(4/5)_ : ES 6/7; TypeScript; VueJS; WebPack; Bootstrap; 
+  * _(4/5)_ : ES 6/7; TypeScript; AngularJS 2.x; VueJS; WebPack; Bootstrap; 
   * _(3/5)_ : HTML5; CSS3 / SASS / LESS; Web Design; 
-  * _(2/5)_ : ReactJS; AngularJS 2.x; 
+  * _(2/5)_ : ReactJS; 
 
 - **Ingénierie des données**
 

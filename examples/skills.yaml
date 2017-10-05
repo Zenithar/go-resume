@@ -34,7 +34,7 @@
       skills:
         - fr: Programmation défensive
           en: Defensive Programming
-        - fr: Contre-mesures Sécurité
+        - fr: Contre-mesures sécurité
           en: Security Threat Countermeasures
       technologies:
         - OWASP Top 10
@@ -104,6 +104,7 @@
       technologies:
         - Scala
         - ASM (x86, ARM7)
+        - PHP
     - level: 2
       technologies:
         - Elixir
@@ -139,6 +140,9 @@
         - Oracle
         - SQL Server
         - DB2
+    - level: 2
+      technologies:
+        - DGraph / GraphQL
 
 - category:
     fr: Système d'exploitation
@@ -191,6 +195,9 @@
       technologies:
         - MeteorJS
         - Ruby on Rails
+    - level: 2
+      technologies:
+        - Laravel
 
 - category:
     fr: DevOps
@@ -216,7 +223,7 @@
       technologies:
         - Ansible
         - Amazon AWS
-        - Istio
+        - Istio / Envoy
         - Terraform
 
 - category:
@@ -230,6 +237,7 @@
       technologies:
         - ES 6/7
         - TypeScript
+        - AngularJS 2.x
         - VueJS
         - WebPack
         - Bootstrap
@@ -241,7 +249,6 @@
     - level: 2
       technologies:
         - ReactJS
-        - AngularJS 2.x
 
 - category:
     fr: "Ingénierie des données"

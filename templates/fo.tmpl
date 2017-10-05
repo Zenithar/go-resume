@@ -77,7 +77,7 @@
               <!-- /Header -->
 
               <!-- Title -->
-              <fo:block-container space-before="20pt" id="title">
+              <fo:block-container space-before="25pt" id="title">
                 <fo:block text-align="center" font-weight="bold" space-before="4pt" space-after="0pt" font-size="150%">
                   {~ .Title ~}
                 </fo:block>
@@ -256,14 +256,27 @@
         <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
           Compétences
         </fo:block>
+        <fo:block space-before="4pt" space-after="8pt" font-size="75%" font-style="italic">
+          Eléments de catégorie classés : [5] "Expertise", [4] "Je sais", [3] "Je connais", [2] "J'apprends" et [1] "Vraiment si besoin".
+        </fo:block>
         <fo:block space-before="4pt" space-after="8pt">
         {~ range .SkillSets ~}
+          <fo:block keep-together.within-column="always">
             <fo:block space-before="4pt" font-weight="bold">
               {~ index .Category "fr" | HtmlEscape ~}
             </fo:block>
             <fo:block font-size="80%">
-              {~ range .Levels ~}{~ range .Skills ~}{~ index . "fr" | HtmlEscape ~}; {~ end ~}{~ range .Technologies ~}{~ . | HtmlEscape ~}; {~ end ~}{~ end ~}
+              {~ range .Levels ~}
+                {~ $level := .Level ~}
+                {~ range .Skills ~}
+                  {~ index . "fr" | HtmlEscape ~} <fo:inline baseline-shift="super" font-size="60%">{~ $level ~}</fo:inline>;
+                {~ end ~}
+                {~ range .Technologies ~}
+                  {~ . | HtmlEscape ~} <fo:inline baseline-shift="super" font-size="60%">{~ $level ~}</fo:inline>;
+                {~ end ~}
+              {~ end ~}
             </fo:block>
+          </fo:block>
         {~ end ~}
         </fo:block>
       </fo:block-container>

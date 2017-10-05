@@ -6,7 +6,7 @@ quote: "Il existe moins bien mais c'est plus cher !"
 
 # ----------------------------------------------------------------------------
 
-title: Cyber Security Engineer
+title: Senior Cyber Security Expert
 
 summary: |
   Développeur de formation et passionné de sécurité, j'aime traiter des projets
@@ -41,24 +41,26 @@ companies:
     activity: "R&D"
     sector: "Industriel"
     location:
-      countryCode: FR
+      countryCode: France
       city: Toulouse
     positions:
-      - title: "Cyber Security Engineer"
+      - title: "Senior Cyber Security Expert / Golang Guru"
         startDate: "2017-06-18"
         highlights:
+          - Conception et réalisation d'une plateforme d'accès à la vitrine produits. (Go, VueJS)
+          - Audits et Exigences infrastructure sécurité pour projets "Cloud". (AWS)
           - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux. (RGPD, ISO270xx)
-          - Audit qualité et sécurité. (Java / J2EE / NodeJS / Python)
+          - Audits de code sécurité. (Java / J2EE / NodeJS / Python / Go / Crypto)
 
   - company: "Sogeti ESEC"
     website: "https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/"
     activity: "SSII"
     sector: "Securité"
     location:
-      countryCode: FR
+      countryCode: France
       city: Toulouse
     positions:
-      - title: "Cyber Security Engineer / Data Engineer / Full Stack Developer / DevOps"
+      - title: "Cyber Security Expert / Data Architect / Full Stack Developer / DevOps"
         startDate: "2013-10-28"
         endDate: "2017-06-08"
         highlights:
@@ -78,7 +80,7 @@ companies:
     activity: "Editeur / R&D"
     sector: "Mainframe"
     location:
-      countryCode: FR
+      countryCode: France
       city: Toulouse
     positions:
       - title: "Ingénieur R&D / Scrum Master"
@@ -97,7 +99,7 @@ companies:
     activity: "SSII / Conseil"
     sector: "Sécurité"
     location:
-      countryCode: FR
+      countryCode: France
       city: Toulouse
     positions:
       - title: "Ingénieur Sécurité"
@@ -125,7 +127,7 @@ companies:
     activity: "Editeur / R&D"
     sector: "Média Numérique"
     location:
-      countryCode: FR
+      countryCode: France
       city: Toulouse
     positions:
       - title: "Développeur"
@@ -141,7 +143,7 @@ companies:
     activity: "Editeur / R&D"
     sector: "Santé / Espace"
     location:
-      countryCode: FR
+      countryCode: France
       city: Toulouse
     positions:
       - title: "Développeur"
@@ -159,7 +161,7 @@ companies:
     activity: "Editeur / R&D"
     sector: "Jeux Vidéo"
     location:
-      countryCode: FR
+      countryCode: France
       city: Sophia Antipolis
     positions:
       - title: "Administrateur Système et Réseau"
@@ -178,7 +180,7 @@ companies:
     activity: "Antiquaire"
     sector: "Art"
     location:
-      countryCode: FR
+      countryCode: France
       city: Nice
     positions:
       - title: "WebMaster"
@@ -195,7 +197,7 @@ education:
 
   - school: "IUP ISI"
     location:
-      countryCode: FR
+      countryCode: France
       city: Toulouse
 
     diplomas:
@@ -230,7 +232,7 @@ education:
 
   - school: "IUT Informatique"
     location:
-      countryCode: FR
+      countryCode: France
       city: Nice
 
     diplomas:
@@ -257,7 +259,7 @@ education:
 
   - school: "Lycée Albert Camus"
     location:
-      countryCode: FR
+      countryCode: France
       city: Fréjus
 
     diplomas:

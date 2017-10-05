@@ -11,8 +11,8 @@ import (
 	"go.zenithar.org/resume/reader"
 	"go.zenithar.org/resume/schema"
 
-	"github.com/Sirupsen/logrus"
 	"github.com/leekchan/gtf"
+	"github.com/sirupsen/logrus"
 )
 
 var (
