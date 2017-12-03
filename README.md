@@ -33,7 +33,8 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 - [N/C]() - Industriel (R&D) - Toulouse, France
   
   * **Senior Cyber Security Expert / Golang Guru** - Depuis June,2017
-    - Conception et réalisation d'une plateforme d'accès à la vitrine produits. (Go, VueJS)
+    - Portail de gestion des demandes liées à la RGPD (AWS, Go, VueJS)
+    - Plateforme d'identification et d'autorisation distribuée hautement disponible (AWS, Go, VueJS)
     - Audits et Exigences infrastructure sécurité pour projets "Cloud". (AWS)
     - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux. (RGPD, ISO270xx)
     - Audits de code sécurité. (Java / J2EE / NodeJS / Python / Go / Crypto)

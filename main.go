@@ -16,6 +16,7 @@ import (
 )
 
 var (
+	revision = flag.String("revision", "", "Defines input revision")
 	yamlPath = flag.String("yaml", "", "Defines the YAML filepath.")
 	tmplName = flag.String("tmpl", "", "Defines the template to use.")
 )
@@ -64,6 +65,9 @@ func main() {
 	if err != nil {
 		logrus.WithError(err).WithField("yaml", *yamlPath).Fatal("Unable to load resume specification.")
 	}
+
+	// Assign revision
+	model.Revision = *revision
 
 	// Generate output
 	tmpl := template.New("output")

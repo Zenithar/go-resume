@@ -47,7 +47,8 @@ companies:
       - title: "Senior Cyber Security Expert / Golang Guru"
         startDate: "2017-06-18"
         highlights:
-          - Conception et réalisation d'une plateforme d'accès à la vitrine produits. (Go, VueJS)
+          - Portail de gestion des demandes liées à la RGPD (AWS, Go, VueJS)
+          - Plateforme d'identification et d'autorisation distribuée hautement disponible (AWS, Go, VueJS)
           - Audits et Exigences infrastructure sécurité pour projets "Cloud". (AWS)
           - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux. (RGPD, ISO270xx)
           - Audits de code sécurité. (Java / J2EE / NodeJS / Python / Go / Crypto)
