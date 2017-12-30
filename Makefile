@@ -16,8 +16,8 @@ pdf: build
 	@./resume -revision $(shell git rev-parse --short HEAD) -yaml examples/fr.yaml -tmpl fo.tmpl > cv.fo
 	@echo "> Compiling to PDF"
 	@fop cv.fo cv.pdf
-	@echo "> Signing PDF"
-	@mv cv.pdf signed.pdf
+	@echo "> Optimizing PDF"
+	@pdfcpu optimize cv.pdf signed.pdf 
 
 latex: build
 	@echo "> Building Latex file"

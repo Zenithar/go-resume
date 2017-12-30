@@ -95,6 +95,7 @@
         en: I do
       technologies:
         - C/C++
+        - Rust
         - Ruby
         - Python
     - level: 3
