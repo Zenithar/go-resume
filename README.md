@@ -202,12 +202,18 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
   * _(3/5)_ : MeteorJS; Ruby on Rails; 
   * _(2/5)_ : Laravel; 
 
+- **Cloud**
+
+  * _(5/5)_ : RabbitMQ; NSQ; ZMQ; WebSocket; 
+  * _(4/5)_ : MQTT; Apache Kafka; Amazon IAM / Cognito; Amazon EC2; 
+  * _(3/5)_ : Amazon SNS; Amazon IoT; Amazon API Gateway / Lambda; CoAP DTLS; 
+
 - **DevOps**
 
   * _(5/5)_ : Docker; Rancher; Prometheus; Consul; Vault; 
   * _(4/5)_ : Grafana; GitlabCI; Sentry; 
-  * _(3/5)_ : Kubernetes; Jenkins; 
-  * _(2/5)_ : Ansible; Amazon AWS; Istio / Envoy; Terraform; 
+  * _(3/5)_ : Kubernetes; Jenkins; Amazon ECS / ECR; 
+  * _(2/5)_ : Ansible; Istio / Envoy; Linkerd; Terraform; 
 
 - **Frontend / UX**
 
@@ -226,7 +232,8 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 - **Blockchain**
 
   * _(4/5)_ : Ethereum; 
-  * _(3/5)_ : IBM Hyperledger; 
+  * _(3/5)_ : J.P. Morgan Quorum; IBM Hyperledger; 
+  * _(2/5)_ : Solidity; Truffle; ERC20 Token; 
 
 - **Java**
 

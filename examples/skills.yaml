@@ -201,6 +201,29 @@
         - Laravel
 
 - category:
+    fr: Cloud
+    en: Cloud
+  levels:
+    - level: 5
+      technologies:
+        - RabbitMQ
+        - NSQ
+        - ZMQ
+        - WebSocket
+    - level: 4
+      technologies:
+        - MQTT
+        - Apache Kafka
+        - Amazon IAM / Cognito
+        - Amazon EC2
+    - level: 3
+      technologies:
+        - Amazon SNS
+        - Amazon IoT
+        - Amazon API Gateway / Lambda
+        - CoAP DTLS
+
+- category:
     fr: DevOps
     en: DevOps
   levels:
@@ -220,11 +243,12 @@
       technologies:
         - Kubernetes
         - Jenkins
+        - Amazon ECS / ECR
     - level: 2
       technologies:
         - Ansible
-        - Amazon AWS
         - Istio / Envoy
+        - Linkerd
         - Terraform
 
 - category:
@@ -297,7 +321,13 @@
         - Ethereum
     - level: 3
       technologies:
+        - J.P. Morgan Quorum
         - IBM Hyperledger
+    - level: 2
+      technologies:
+        - Solidity
+        - Truffle
+        - ERC20 Token
 
 - category:
     fr: Java
