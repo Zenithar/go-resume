@@ -8,7 +8,7 @@ phone: +33 668 666 636
 email: thibault.normand@gmail.com
 date: 1983-05-31
 ...
-# Senior Cyber Security Expert
+# CyberSecurity Solution Architect
 
 ### Résumé
 
@@ -32,10 +32,13 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 - [N/C]() - Industriel (R&D) - Toulouse, France
   
-  * **Senior Cyber Security Expert / Golang Guru** - Depuis June,2017
+  * **CyberSecurity Solution Architect / Golang Guru** - Depuis June,2017
+    - Infrastructure de cyber monitoring distribuée. (AWS)
+    - Mesures techniques CyberSécurité liées au RGPD. (Crypto)
+    - Portail de gestion des droits utilisateur RGPD. (VueJS, Go)
+    - Plateforme de communication sécurisée IoT <-> Cloud. (HTTP, MQTT, CoAP)
     - Plateforme d'identification et contrôle d'accès distribuée. (AWS, Go / Rust)
-    - Etude d'intégration d'une blockchain privée (Ethereum)
-    - Audits et Exigences infrastructure sécurité pour projets "Cloud". (AWS)
+    - Etude d'intégration d'une blockchain privée. (Ethereum)
     - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux. (RGPD, ISO270xx)
     - Audits de code sécurité. (Java / J2EE / NodeJS / Python / Go / Crypto)
     
@@ -179,7 +182,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 - **Base de données**
 
   * _(5/5)_ : MongoDB; RethinkDB; Redis; 
-  * _(4/5)_ : Neo4j; ElasticSearch; MySQL / MariaDB; PostgreSQL; 
+  * _(4/5)_ : Neo4j; ElasticSearch; MySQL / MariaDB; PostgreSQL; CockroachDB; 
   * _(3/5)_ : Hadoop / HBase; Oracle; SQL Server; DB2; 
   * _(2/5)_ : DGraph / GraphQL; 
 
@@ -204,8 +207,8 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 - **Cloud**
 
-  * _(5/5)_ : RabbitMQ; NSQ; ZMQ; WebSocket; 
-  * _(4/5)_ : MQTT; Apache Kafka; Amazon IAM / Cognito; Amazon EC2; 
+  * _(5/5)_ : RabbitMQ; NATS; NSQ; ZMQ; WebSocket; 
+  * _(4/5)_ : MQTT / eMQTTd; Apache Kafka; Amazon IAM / Cognito; Amazon EC2; 
   * _(3/5)_ : Amazon SNS; Amazon IoT; Amazon API Gateway / Lambda; CoAP DTLS; 
 
 - **DevOps**

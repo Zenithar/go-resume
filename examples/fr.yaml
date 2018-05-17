@@ -6,7 +6,7 @@ quote: "Il existe moins bien mais c'est plus cher !"
 
 # ----------------------------------------------------------------------------
 
-title: Senior Cyber Security Expert
+title: CyberSecurity Solution Architect
 
 summary: |
   Développeur de formation et passionné de sécurité, j'aime traiter des projets
@@ -44,12 +44,15 @@ companies:
       countryCode: France
       city: Toulouse
     positions:
-      - title: "Senior Cyber Security Expert / Golang Guru"
+      - title: "CyberSecurity Solution Architect / Golang Guru"
         startDate: "2017-06-18"
         highlights:
+          - Infrastructure de cyber monitoring distribuée. (AWS)
+          - Mesures techniques CyberSécurité liées au RGPD. (Crypto)
+          - Portail de gestion des droits utilisateur RGPD. (VueJS, Go)
+          - Plateforme de communication sécurisée IoT <-> Cloud. (HTTP, MQTT, CoAP)
           - Plateforme d'identification et contrôle d'accès distribuée. (AWS, Go / Rust)
-          - Etude d'intégration d'une blockchain privée (Ethereum) 
-          - Audits et Exigences infrastructure sécurité pour projets "Cloud". (AWS)
+          - Etude d'intégration d'une blockchain privée. (Ethereum) 
           - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux. (RGPD, ISO270xx)
           - Audits de code sécurité. (Java / J2EE / NodeJS / Python / Go / Crypto)
 
