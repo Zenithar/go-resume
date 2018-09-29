@@ -144,7 +144,7 @@
         - DB2
     - level: 2
       technologies:
-        - DGraph / GraphQL
+        - DGraph
 
 - category:
     fr: Système d'exploitation
@@ -193,6 +193,7 @@
       technologies:
         - NodeJS
         - Express
+        - GraphQL
     - level: 3
       technologies:
         - MeteorJS
@@ -223,7 +224,7 @@
         - Amazon SNS
         - Amazon IoT
         - Amazon API Gateway / Lambda
-        - CoAP DTLS
+        - CoAP / DTLS
 
 - category:
     fr: DevOps
@@ -240,18 +241,19 @@
       technologies:
         - Grafana
         - GitlabCI
+        - Kubernetes
+        - Helm
+        - Istio / Envoy
         - Sentry
     - level: 3
       technologies:
-        - Kubernetes
         - Jenkins
         - Amazon ECS / ECR
+        - Terraform
     - level: 2
       technologies:
         - Ansible
-        - Istio / Envoy
         - Linkerd
-        - Terraform
 
 - category:
     fr: Frontend / UX
@@ -273,6 +275,7 @@
         - HTML5
         - CSS3 / SASS / LESS
         - Web Design
+        - WebAssembly
     - level: 2
       technologies:
         - ReactJS

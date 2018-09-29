@@ -8,7 +8,7 @@ phone: +33 668 666 636
 email: thibault.normand@gmail.com
 date: 1983-05-31
 ...
-# CyberSecurity Solution Architect
+# Cyber Security Architect
 
 ### Résumé
 
@@ -21,7 +21,7 @@ je recherche des postes permettant l'apprentissage et l'exploitation de
 nouveaux savoirs.
 
 
- - Profil de postes souhaités : Architecte Solution; Développeur FullStack; Expertise Technique; Conseil; 
+ - Profil de postes souhaités : Architecte; Expertise Technique; Conseil; Développeur FullStack; 
  - Domaines : Cyber Sécurité; Big Data; Machine learning; Blockchain; IoT; 
 
 Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.facebook.com/zenithar); [github](https://github.com/zenithar); [linkedin](https://www.linkedin.com/in/zenithar); [mastodon](https://mamot.fr/@zenithar); [twitter](https://twitter.com/zenithar); 
@@ -32,15 +32,15 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 - [N/C]() - Industriel (R&D) - Toulouse, France
   
-  * **CyberSecurity Solution Architect / Golang Guru** - Depuis June,2017
-    - Infrastructure de cyber monitoring distribuée. (AWS)
-    - Mesures techniques CyberSécurité liées au RGPD. (Crypto)
-    - Portail de gestion des droits utilisateur RGPD. (VueJS, Go)
+  * **Cyber Security Architect / Golang Guru** - Depuis June,2017
     - Plateforme de communication sécurisée IoT <-> Cloud. (HTTP, MQTT, CoAP)
-    - Plateforme d'identification et contrôle d'accès distribuée. (AWS, Go / Rust)
+    - Plateforme d'identification et contrôle d'accès distribuée. (Go, OIDC / SAML2, ABAC)
+    - Protocole d'identification respectant la vie privée. (Crypto, ZKP)
     - Etude d'intégration d'une blockchain privée. (Ethereum)
-    - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux. (RGPD, ISO270xx)
-    - Audits de code sécurité. (Java / J2EE / NodeJS / Python / Go / Crypto)
+    - Mesures techniques CyberSécurité liées au RGPD. (Crypto)
+    - Rédaction des guides de durcissement. (AWS, Docker / K8S)
+    - Audits de code sécurité. (Java / J2EE, NodeJS, Python, Go, Crypto)
+    - Formation / Support aux équipes. (Go, Crypto, Blockchain)
     
 
 - [Sogeti ESEC](https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/) - Securité (SSII) - Toulouse, France
@@ -184,7 +184,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
   * _(5/5)_ : MongoDB; RethinkDB; Redis; 
   * _(4/5)_ : Neo4j; ElasticSearch; MySQL / MariaDB; PostgreSQL; CockroachDB; 
   * _(3/5)_ : Hadoop / HBase; Oracle; SQL Server; DB2; 
-  * _(2/5)_ : DGraph / GraphQL; 
+  * _(2/5)_ : DGraph; 
 
 - **Système d'exploitation**
 
@@ -201,7 +201,7 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 - **Backend Framework**
 
   * _(5/5)_ : Microservices Patterns; Resilience Patterns; gRPC / Protobuf; 
-  * _(4/5)_ : NodeJS; Express; 
+  * _(4/5)_ : NodeJS; Express; GraphQL; 
   * _(3/5)_ : MeteorJS; Ruby on Rails; 
   * _(2/5)_ : Laravel; 
 
@@ -209,20 +209,20 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
   * _(5/5)_ : RabbitMQ; NATS; NSQ; ZMQ; WebSocket; 
   * _(4/5)_ : MQTT / eMQTTd; Apache Kafka; Amazon IAM / Cognito; Amazon EC2; 
-  * _(3/5)_ : Amazon SNS; Amazon IoT; Amazon API Gateway / Lambda; CoAP DTLS; 
+  * _(3/5)_ : Amazon SNS; Amazon IoT; Amazon API Gateway / Lambda; CoAP / DTLS; 
 
 - **DevOps**
 
   * _(5/5)_ : Docker; Rancher; Prometheus; Consul; Vault; 
-  * _(4/5)_ : Grafana; GitlabCI; Sentry; 
-  * _(3/5)_ : Kubernetes; Jenkins; Amazon ECS / ECR; 
-  * _(2/5)_ : Ansible; Istio / Envoy; Linkerd; Terraform; 
+  * _(4/5)_ : Grafana; GitlabCI; Kubernetes; Helm; Istio / Envoy; Sentry; 
+  * _(3/5)_ : Jenkins; Amazon ECS / ECR; Terraform; 
+  * _(2/5)_ : Ansible; Linkerd; 
 
 - **Frontend / UX**
 
   * _(5/5)_ : AngularJS 1.x; 
   * _(4/5)_ : ES 6/7; TypeScript; AngularJS 2.x; VueJS; WebPack; Bootstrap; 
-  * _(3/5)_ : HTML5; CSS3 / SASS / LESS; Web Design; 
+  * _(3/5)_ : HTML5; CSS3 / SASS / LESS; Web Design; WebAssembly; 
   * _(2/5)_ : ReactJS; 
 
 - **Ingénierie des données**

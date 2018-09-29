@@ -6,7 +6,7 @@ quote: "Il existe moins bien mais c'est plus cher !"
 
 # ----------------------------------------------------------------------------
 
-title: CyberSecurity Solution Architect
+title: Cyber Security Architect
 
 summary: |
   Développeur de formation et passionné de sécurité, j'aime traiter des projets
@@ -20,10 +20,10 @@ summary: |
 expectations:
 
   jobs:
-    - "Architecte Solution"
-    - "Développeur FullStack"
+    - "Architecte"
     - "Expertise Technique"
     - "Conseil"
+    - "Développeur FullStack"
 
   domains:
     - "Cyber Sécurité"
@@ -44,18 +44,17 @@ companies:
       countryCode: France
       city: Toulouse
     positions:
-      - title: "CyberSecurity Solution Architect / Golang Guru"
+      - title: "Cyber Security Architect / Golang Guru"
         startDate: "2017-06-18"
         highlights:
-          - Infrastructure de cyber monitoring distribuée. (AWS)
-          - Mesures techniques CyberSécurité liées au RGPD. (Crypto)
-          - Portail de gestion des droits utilisateur RGPD. (VueJS, Go)
           - Plateforme de communication sécurisée IoT <-> Cloud. (HTTP, MQTT, CoAP)
-          - Plateforme d'identification et contrôle d'accès distribuée. (AWS, Go / Rust)
+          - Plateforme d'identification et contrôle d'accès distribuée. (Go, OIDC / SAML2, ABAC)
+          - Protocole d'identification respectant la vie privée. (Crypto, ZKP)
           - Etude d'intégration d'une blockchain privée. (Ethereum) 
-          - Mesures de sécurité pour "Privacy by Design" de projets "Cloud" internationaux. (RGPD, ISO270xx)
-          - Audits de code sécurité. (Java / J2EE / NodeJS / Python / Go / Crypto)
-
+          - Mesures techniques CyberSécurité liées au RGPD. (Crypto)
+          - Rédaction des guides de durcissement. (AWS, Docker / K8S)
+          - Audits de code sécurité. (Java / J2EE, NodeJS, Python, Go, Crypto)
+          - Formation / Support aux équipes. (Go, Crypto, Blockchain)
   - company: "Sogeti ESEC"
     website: "https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/"
     activity: "SSII"
