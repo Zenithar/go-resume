@@ -6,7 +6,7 @@ quote: "Il existe moins bien mais c'est plus cher !"
 
 # ----------------------------------------------------------------------------
 
-title: Cyber Security Architect
+title: Cyber Security Architect / Developer Ninja / SecOps
 
 summary: |
   Développeur de formation et passionné de sécurité, j'aime traiter des projets
@@ -44,9 +44,10 @@ companies:
       countryCode: France
       city: Toulouse
     positions:
-      - title: "Cyber Security Architect / Golang Guru"
+      - title: "Cyber Security Architect / Developer Ninja / SecOps"
         startDate: "2017-06-18"
         highlights:
+          - Définition stratégie "Security By Design".
           - Plateforme de communication sécurisée IoT <-> Cloud. (HTTP, MQTT, CoAP)
           - Plateforme d'identification et contrôle d'accès distribuée. (Go, OIDC / SAML2, ABAC)
           - Protocole d'identification respectant la vie privée. (Crypto, ZKP)

@@ -4,11 +4,11 @@ website: http://zenithar.org
 street: 1 Rue d'aquitaine, Rés Les Sports, Appt J74
 postcode: 31150
 city: Fenouillet
-phone: +33 668 666 396
+phone: +33 668 666 636
 email: thibault.normand@gmail.com
 date: 1983-05-31
 ...
-# Cyber Security Architect
+# Cyber Security Architect / Developer Ninja / SecOps
 
 ### Résumé
 
@@ -32,7 +32,8 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 - [N/C]() - Industriel (R&D) - Toulouse, France
   
-  * **Cyber Security Architect / Golang Guru** - Depuis June,2017
+  * **Cyber Security Architect / Developer Ninja / SecOps** - Depuis June,2017
+    - Définition stratégie "Security By Design".
     - Plateforme de communication sécurisée IoT <-> Cloud. (HTTP, MQTT, CoAP)
     - Plateforme d'identification et contrôle d'accès distribuée. (Go, OIDC / SAML2, ABAC)
     - Protocole d'identification respectant la vie privée. (Crypto, ZKP)
