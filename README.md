@@ -4,7 +4,7 @@ website: http://zenithar.org
 street: 1 Rue d'aquitaine, Rés Les Sports, Appt J74
 postcode: 31150
 city: Fenouillet
-phone: +33 668 666 636
+phone: +33 668 666 396
 email: thibault.normand@gmail.com
 date: 1983-05-31
 ...
