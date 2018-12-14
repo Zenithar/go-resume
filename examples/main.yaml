@@ -11,9 +11,9 @@ nationality: French
 location:
   countryCode: France
   region: "Midi-Pyrénées"
-  postalCode: 31410
-  city: Noé
-  address: 6 impasse du priclé
+  postalCode: 
+  city: Toulouse
+  address: 
 
 contact:
   mobile: +33 668 666 396
