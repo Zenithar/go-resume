@@ -21,41 +21,49 @@ expectations:
 
   jobs:
     - "Architecte"
-    - "Expertise Technique"
-    - "Conseil"
-    - "Développeur FullStack"
+    - "Formateur"
+    - "Expert Technique"
+    - "DevSecOps"
+    - "Product Owner"
+    - "Slasher"
 
   domains:
     - "Cyber Sécurité"
     - "Big Data"
-    - "Machine learning"
-    - "Blockchain"
     - "IoT"
+    - "Blockchain"
+    - "Machine learning"
 
 # ----------------------------------------------------------------------------
 
 companies:
 
-  - company: "N/C"
+  - company: "Continental Digital Services"
     website: ""
     activity: "R&D"
-    sector: "Industriel"
+    sector: "Industriel Automotive"
     location:
       countryCode: France
       city: Toulouse
     positions:
-      - title: "Cyber Security Architect / Ninja Developer / SecOps"
+      - title: "Cyber Security Architect / Ninja Developer / SecOps / PO"
         startDate: "2017-06-18"
         highlights:
+          - Product Owner pour produits Sécurité / DevOps.
+          - Technical leader / Golang guru.
+          - Définition des services de cyber risk monitoring (AWS).
+          - Définition plateforme de production (Data, Services, Produits, Operations).
           - Définition stratégie "Security By Design".
-          - Plateforme de communication sécurisée IoT <-> Cloud. (HTTP, MQTT, CoAP)
-          - Plateforme d'identification et contrôle d'accès distribuée. (Go, OIDC / SAML2, ABAC)
+          - Plateforme de communication sécurisée Voiture connectée / IoT <-> Cloud. (HTTP, MQTT, CoAP)
+          - Plateforme d'identification et contrôle d'accès distribuée. (AWS, Go, OIDC / SAML2)
           - Protocole d'identification respectant la vie privée. (Crypto, ZKP)
-          - Etude d'intégration d'une blockchain privée. (Ethereum) 
-          - Mesures techniques CyberSécurité liées au RGPD. (Crypto)
+          - Etude d'intégration de blockchain. (Data Sharing, Licensing) 
+          - Mesures techniques CyberSécurité liées au RGPD. (Crypto, Go, Java, Scala)
           - Rédaction des guides de durcissement. (AWS, Docker / K8S)
-          - Audits de code sécurité. (Java / J2EE, NodeJS, Python, Go, Crypto)
+          - Audits et conseils d'architecture. (Threat Model)
+          - Audits et conseils de code sécurité. (Java / J2EE, NodeJS, Python, Go, Crypto)
           - Formation / Support aux équipes. (Go, Crypto, Blockchain)
+
   - company: "Sogeti ESEC"
     website: "https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/"
     activity: "SSII"
@@ -291,8 +299,12 @@ skillsets: !include skills.yaml
 # ----------------------------------------------------------------------------
 extras:
 
-  - "Batterie depuis Septembre 2013"
-  - "Saxophone depuis l'âge de 11 ans dont 6 ans en conservatoire"
-  - "Amélioration continuelle grâce à la veille technologique, l'expérimentation et les projets personnels (Sécurité, Logiciels, Techniques de management)"
+  - "Instruments musique: Batterie & Saxophone"
+  - Amélioration continuelle grâce à la veille technologique, l'expérimentation et les projets personnels (Sécurité, Logiciels, Techniques de management)
   - Rédacteur (Blog)
   - Explorateur technologique
+  - Développement personnel
+  - Cuisine du monde
+  - Microbrasserie
+  - Pâtisserie / Boulangerie
+  - Rénovation maison (Maçonnerie, Isolation, Electricité)

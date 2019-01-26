@@ -21,8 +21,8 @@ je recherche des postes permettant l'apprentissage et l'exploitation de
 nouveaux savoirs.
 
 
- - Profil de postes souhaités : Architecte; Expertise Technique; Conseil; Développeur FullStack; 
- - Domaines : Cyber Sécurité; Big Data; Machine learning; Blockchain; IoT; 
+ - Profil de postes souhaités : Architecte; Formateur; Expert Technique; DevSecOps; Product Owner; Slasher; 
+ - Domaines : Cyber Sécurité; Big Data; IoT; Blockchain; Machine learning; 
 
 Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.facebook.com/zenithar); [github](https://github.com/zenithar); [linkedin](https://www.linkedin.com/in/zenithar); [mastodon](https://mamot.fr/@zenithar); [twitter](https://twitter.com/zenithar); 
 
@@ -30,17 +30,22 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 ### Expérience professionnelle
 
-- [N/C]() - Industriel (R&D) - Toulouse, France
+- [Continental Digital Services]() - Industriel Automotive (R&D) - Toulouse, France
   
-  * **Cyber Security Architect / Ninja Developer / SecOps** - Depuis June,2017
+  * **Cyber Security Architect / Ninja Developer / SecOps / PO** - Depuis June,2017
+    - Product Owner pour produits Sécurité / DevOps.
+    - Technical leader / Golang guru.
+    - Définition des services de cyber risk monitoring (AWS).
+    - Définition plateforme de production (Data, Services, Produits, Operations).
     - Définition stratégie "Security By Design".
-    - Plateforme de communication sécurisée IoT <-> Cloud. (HTTP, MQTT, CoAP)
-    - Plateforme d'identification et contrôle d'accès distribuée. (Go, OIDC / SAML2, ABAC)
+    - Plateforme de communication sécurisée Voiture connectée / IoT <-> Cloud. (HTTP, MQTT, CoAP)
+    - Plateforme d'identification et contrôle d'accès distribuée. (AWS, Go, OIDC / SAML2)
     - Protocole d'identification respectant la vie privée. (Crypto, ZKP)
-    - Etude d'intégration d'une blockchain privée. (Ethereum)
-    - Mesures techniques CyberSécurité liées au RGPD. (Crypto)
+    - Etude d'intégration de blockchain. (Data Sharing, Licensing)
+    - Mesures techniques CyberSécurité liées au RGPD. (Crypto, Go, Java, Scala)
     - Rédaction des guides de durcissement. (AWS, Docker / K8S)
-    - Audits de code sécurité. (Java / J2EE, NodeJS, Python, Go, Crypto)
+    - Audits et conseils d'architecture. (Threat Model)
+    - Audits et conseils de code sécurité. (Java / J2EE, NodeJS, Python, Go, Crypto)
     - Formation / Support aux équipes. (Go, Crypto, Blockchain)
     
 
@@ -162,15 +167,15 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 - **Fonctionnelles**
 
-  * _(5/5)_ : Creative Thinking; Veille technologique; 
+  * _(5/5)_ : Creative Thinking; Veille technologique; Slasher; 
   * _(4/5)_ : Gestion de projet / Scrum Master; Conduite de réunion; Pédagogie / Vulgarisation; 
   * _(3/5)_ : Rédaction publications scientifiques; Présentation en public; 
 
 - **Sécurité**
 
   * _(5/5)_ : Programmation défensive; Contre-mesures sécurité; OWASP Top 10; SANS Top 25; 
-  * _(4/5)_ : Audit de code; Cryptographie / Chiffrement; Durcissement Logiciel / Conteneur; Cuckoo Sandbox; 
-  * _(3/5)_ : Analyse de risque (EBIOS); RGPD; Suricata; Bro IDS; Honeypots (Cowerie / Kippo); DNS / SMTP Sinkhole; QRadar SIEM; Splunk; FileBeat / PacketBeat; 
+  * _(4/5)_ : Audit de code; Cryptographie / Chiffrement; Durcissement Logiciel / Conteneur; Threat Modeling (DFD, AT); Threat Intelligence; Cuckoo Sandbox; 
+  * _(3/5)_ : Analyse de risque (EBIOS); RGPD; Suricata; Bro IDS; Honeypots (Cowerie / Kippo); Sinkhole; QRadar SIEM; Splunk; ElasticSearch / LogStash / Kibana; 
   * _(2/5)_ : Reverse Engineering; Penetration Testing; 
 
 - **Langages**
@@ -180,18 +185,11 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
   * _(3/5)_ : Scala; ASM (x86, ARM7); PHP; 
   * _(2/5)_ : Elixir; Erlang; 
 
-- **Base de données**
+- **Ingénierie des données**
 
-  * _(5/5)_ : MongoDB; RethinkDB; Redis; 
-  * _(4/5)_ : Neo4j; ElasticSearch; MySQL / MariaDB; PostgreSQL; CockroachDB; 
-  * _(3/5)_ : Hadoop / HBase; Oracle; SQL Server; DB2; 
-  * _(2/5)_ : DGraph; 
-
-- **Système d'exploitation**
-
-  * _(5/5)_ : Linux / Archlinux; 
-  * _(4/5)_ : MacOS X; 
-  * _(3/5)_ : Windows; 
+  * _(5/5)_ : Modélisation Sémantique; Préparation des données; Data Wrangling; Data Scraping; 
+  * _(4/5)_ : Protégé; Anonymisation; ElasticSearch / LogStash / Kibana; 
+  * _(3/5)_ : Traitement du signal; Detection d'anomalies; Statistiques; Python / Jupyter / Pandas; SciKit Learn; Machine learning (SVM, PNN, RF, GBM); H2o; 
 
 - **Affinités FullStack**
 
@@ -201,14 +199,13 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 - **Backend Framework**
 
-  * _(5/5)_ : Microservices Patterns; Resilience Patterns; gRPC / Protobuf; 
-  * _(4/5)_ : NodeJS; Express; GraphQL; 
-  * _(3/5)_ : MeteorJS; Ruby on Rails; 
-  * _(2/5)_ : Laravel; 
+  * _(5/5)_ : Clean Achitecture; Microservices Patterns; Resilience Patterns; gRPC / Protobuf; REST / GraphQL; 
+  * _(4/5)_ : NodeJS; Express; 
+  * _(3/5)_ : Ruby on Rails; 
 
 - **Cloud**
 
-  * _(5/5)_ : RabbitMQ; NATS; NSQ; ZMQ; WebSocket; 
+  * _(5/5)_ : RabbitMQ; NATS; NSQ; ZMQ; WebSocket; Serverless; 
   * _(4/5)_ : MQTT / eMQTTd; Apache Kafka; Amazon IAM / Cognito; Amazon EC2; 
   * _(3/5)_ : Amazon SNS; Amazon IoT; Amazon API Gateway / Lambda; CoAP / DTLS; 
 
@@ -216,34 +213,19 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
   * _(5/5)_ : Docker; Rancher; Prometheus; Consul; Vault; 
   * _(4/5)_ : Grafana; GitlabCI; Kubernetes; Helm; Istio / Envoy; Sentry; 
-  * _(3/5)_ : Jenkins; Amazon ECS / ECR; Terraform; 
-  * _(2/5)_ : Ansible; Linkerd; 
+  * _(3/5)_ : Jenkins; Terraform; 
+  * _(2/5)_ : Ansible; 
 
 - **Frontend / UX**
 
-  * _(5/5)_ : AngularJS 1.x; 
-  * _(4/5)_ : ES 6/7; TypeScript; AngularJS 2.x; VueJS; WebPack; Bootstrap; 
-  * _(3/5)_ : HTML5; CSS3 / SASS / LESS; Web Design; WebAssembly; 
-  * _(2/5)_ : ReactJS; 
-
-- **Ingénierie des données**
-
-  * _(5/5)_ : Modélisation Sémantique; Préparation des données; Data Wrangling; Data Scraping; 
-  * _(4/5)_ : Protégé; Anonymisation; ElasticSearch / LogStash / Kibana; 
-  * _(3/5)_ : Traitement du signal; Detection d'anomalies; Statistiques; Python / Jupyter / Pandas; SciKit Learn; Machine learning (SVM, PNN, RF, GBM); H2o; 
-  * _(2/5)_ : R; DataViz; D3; 
+  * _(4/5)_ : VueJS / Vuex; Apollo; 
+  * _(3/5)_ : HTML5; CSS3 / SASS / LESS; WebAssembly; 
 
 - **Blockchain**
 
-  * _(4/5)_ : Ethereum; 
-  * _(3/5)_ : J.P. Morgan Quorum; IBM Hyperledger; 
-  * _(2/5)_ : Solidity; Truffle; ERC20 Token; 
-
-- **Java**
-
-  * _(5/5)_ : Spring (Core, MVC, Security, Data); 
-  * _(4/5)_ : Spring Boot; J2EE; Apache Storm; 
-  * _(3/5)_ : Apache Spark; Apache Kafka; Zookeeper; Vert.x; 
+  * _(4/5)_ : General concepts (Proofs, Algorithms, Protocols); Ethereum; 
+  * _(3/5)_ : J.P. Morgan Quorum; IBM Hyperledger; Parity; 
+  * _(2/5)_ : Smart Contract; Solidity; 
 
 
 ### Références
@@ -252,9 +234,13 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
 
 ### Autres activités
 
- - Batterie depuis Septembre 2013
- - Saxophone depuis l'âge de 11 ans dont 6 ans en conservatoire
+ - Instruments musique: Batterie & Saxophone
  - Amélioration continuelle grâce à la veille technologique, l'expérimentation et les projets personnels (Sécurité, Logiciels, Techniques de management)
  - Rédacteur (Blog)
  - Explorateur technologique
+ - Développement personnel
+ - Cuisine du monde
+ - Microbrasserie
+ - Pâtisserie / Boulangerie
+ - Rénovation maison (Maçonnerie, Isolation, Electricité)
 

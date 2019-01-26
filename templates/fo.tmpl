@@ -150,6 +150,7 @@
                                 </fo:block>
                             </fo:table-cell>
                         </fo:table-row>
+                        {~ if not .Trainee ~}
                         <fo:table-row>
                             <fo:table-cell number-columns-spanned="2">
                                 <fo:list-block margin-left="12pt">
@@ -166,6 +167,7 @@
                                 </fo:list-block>
                             </fo:table-cell>
                         </fo:table-row>
+                        {~ end ~}
                     {~ end ~}
                 </fo:table-body>
             </fo:table>
@@ -252,7 +254,7 @@
       <!-- /Langues -->
 
       <!-- competences / skills -->
-      <fo:block-container space-before="12pt" id="skills" page-break-before="always">
+      <fo:block-container space-before="12pt" id="skills">
         <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
           Compétences
         </fo:block>

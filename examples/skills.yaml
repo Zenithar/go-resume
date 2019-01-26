@@ -8,6 +8,8 @@
           en: Creative Thinking
         - fr: Veille technologique
           en: Technology watch
+        - fr: Slasher
+          en: Slasher
     - level: 4
       skills:
         - fr: Gestion de projet / Scrum Master
@@ -50,6 +52,10 @@
           en: Cryptography / Cipher
         - fr: Durcissement Logiciel / Conteneur
           en: Container / Software Hardening
+        - fr: Threat Modeling (DFD, AT)
+          en: Threat Modeling (DFD, AT)
+        - fr: Threat Intelligence
+          en: Threat Intelligence
       technologies:
         - Cuckoo Sandbox
     - level: 3
@@ -60,10 +66,10 @@
         - Suricata
         - Bro IDS
         - Honeypots (Cowerie / Kippo)
-        - DNS / SMTP Sinkhole
+        - Sinkhole
         - QRadar SIEM
         - Splunk
-        - FileBeat / PacketBeat
+        - ElasticSearch / LogStash / Kibana
       skills:
         - fr: Analyse de risque (EBIOS)
           en: Risk Analysis (EBIOS)
@@ -112,54 +118,36 @@
         - Erlang
 
 - category:
-    fr: Base de données
-    en: Databases
-  levels:
-    - level: 5
-      description:
-        fr: Je conseille
-        en: I advice
-      technologies:
-        - MongoDB
-        - RethinkDB
-        - Redis
-    - level: 4
-      description:
-        fr: Je fais
-        en: I do
-      technologies:
-        - Neo4j
-        - ElasticSearch
-        - MySQL / MariaDB
-        - PostgreSQL
-        - CockroachDB
-    - level: 3
-      description:
-        fr: Je sais
-        en: I know
-      technologies:
-        - Hadoop / HBase
-        - Oracle
-        - SQL Server
-        - DB2
-    - level: 2
-      technologies:
-        - DGraph
-
-- category:
-    fr: Système d'exploitation
-    en: Operating Systems
+    fr: "Ingénierie des données"
+    en: "Data Engineering"
   levels:
     - level: 5
       technologies:
-        - Linux / Archlinux
+        - Data Wrangling
+        - Data Scraping
+      skills:
+        - fr: Modélisation Sémantique
+          en: Semantic Modeling
+        - fr: Préparation des données
+          en: Data Preparation
     - level: 4
       technologies:
-        - MacOS X
+        - Protégé
+        - Anonymisation
+        - ElasticSearch / LogStash / Kibana
     - level: 3
       technologies:
-        - Windows
-
+        - Python / Jupyter / Pandas
+        - SciKit Learn
+        - Machine learning (SVM, PNN, RF, GBM)
+        - H2o
+      skills:
+        - fr: Traitement du signal
+          en: Digital signal processing
+        - fr: Detection d'anomalies
+          en: Anomaly detection
+        - fr: Statistiques
+          en: Statistics
 
 - category:
     fr: Affinités FullStack
@@ -186,21 +174,18 @@
   levels:
     - level: 5
       technologies:
+        - Clean Achitecture
         - Microservices Patterns
         - Resilience Patterns
         - gRPC / Protobuf
+        - REST / GraphQL
     - level: 4
       technologies:
         - NodeJS
         - Express
-        - GraphQL
     - level: 3
       technologies:
-        - MeteorJS
         - Ruby on Rails
-    - level: 2
-      technologies:
-        - Laravel
 
 - category:
     fr: Cloud
@@ -213,6 +198,7 @@
         - NSQ
         - ZMQ
         - WebSocket
+        - Serverless
     - level: 4
       technologies:
         - MQTT / eMQTTd
@@ -248,74 +234,24 @@
     - level: 3
       technologies:
         - Jenkins
-        - Amazon ECS / ECR
         - Terraform
     - level: 2
       technologies:
         - Ansible
-        - Linkerd
 
 - category:
     fr: Frontend / UX
     en: Frontend / UX
   levels:
-    - level: 5
-      technologies:
-        - AngularJS 1.x
     - level: 4
       technologies:
-        - ES 6/7
-        - TypeScript
-        - AngularJS 2.x
-        - VueJS
-        - WebPack
-        - Bootstrap
+        - VueJS / Vuex
+        - Apollo
     - level: 3
       technologies:
         - HTML5
         - CSS3 / SASS / LESS
-        - Web Design
         - WebAssembly
-    - level: 2
-      technologies:
-        - ReactJS
-
-- category:
-    fr: "Ingénierie des données"
-    en: "Data Engineering"
-  levels:
-    - level: 5
-      technologies:
-        - Data Wrangling
-        - Data Scraping
-      skills:
-        - fr: Modélisation Sémantique
-          en: Semantic Modeling
-        - fr: Préparation des données
-          en: Data Preparation
-    - level: 4
-      technologies:
-        - Protégé
-        - Anonymisation
-        - ElasticSearch / LogStash / Kibana
-    - level: 3
-      technologies:
-        - Python / Jupyter / Pandas
-        - SciKit Learn
-        - Machine learning (SVM, PNN, RF, GBM)
-        - H2o
-      skills:
-        - fr: Traitement du signal
-          en: Digital signal processing
-        - fr: Detection d'anomalies
-          en: Anomaly detection
-        - fr: Statistiques
-          en: Statistics
-    - level: 2
-      technologies:
-        - R
-        - DataViz
-        - D3
 
 - category:
     fr: "Blockchain"
@@ -323,32 +259,14 @@
   levels:
     - level: 4
       technologies:
+        - General concepts (Proofs, Algorithms, Protocols)
         - Ethereum
     - level: 3
       technologies:
         - J.P. Morgan Quorum
         - IBM Hyperledger
+        - Parity
     - level: 2
       technologies:
+        - Smart Contract
         - Solidity
-        - Truffle
-        - ERC20 Token
-
-- category:
-    fr: Java
-    en: Java
-  levels:
-    - level: 5
-      technologies:
-        - Spring (Core, MVC, Security, Data)
-    - level: 4
-      technologies:
-        - Spring Boot
-        - J2EE
-        - Apache Storm
-    - level: 3
-      technologies:
-        - Apache Spark
-        - Apache Kafka
-        - Zookeeper
-        - Vert.x
