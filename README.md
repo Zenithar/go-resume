@@ -238,6 +238,8 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
  - Amélioration continuelle grâce à la veille technologique, l'expérimentation et les projets personnels (Sécurité, Logiciels, Techniques de management)
  - Rédacteur (Blog)
  - Explorateur technologique
+ - Impression 3D
+ - Domotique
  - Développement personnel
  - Cuisine du monde
  - Microbrasserie
