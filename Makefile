@@ -7,17 +7,29 @@ build:
 	@echo "> Compiling resume transformer"
 	@go build
 
-md: build
+md.fr: build
 	@echo "> Building Markdown file"
-	@./resume -revision $(shell git rev-parse --short HEAD) -yaml examples/fr.yaml -tmpl md.tmpl > README.md
+	@./resume -revision $(shell git rev-parse --short HEAD) -yaml examples/fr.yaml -tmpl md.fr.tmpl > README.md
 
-pdf: build
+md.en: build
+	@echo "> Building Markdown file"
+	@./resume -revision $(shell git rev-parse --short HEAD) -yaml examples/en.yaml -tmpl md.en.tmpl > README.md
+
+pdf.fr: build
 	@echo "> Building XSL-FO file"
-	@./resume -revision $(shell git rev-parse --short HEAD) -yaml examples/fr.yaml -tmpl fo.tmpl > cv.fo
+	@./resume -revision $(shell git rev-parse --short HEAD) -yaml examples/fr.yaml -tmpl fo.fr.tmpl > fr.fo
 	@echo "> Compiling to PDF"
-	@fop cv.fo cv.pdf
+	@fop fr.fo fr.pdf
 	@echo "> Optimizing PDF"
-	@pdfcpu optimize cv.pdf signed.pdf 
+	@pdfcpu optimize fr.pdf fr_full.pdf 
+
+pdf.en: build
+	@echo "> Building XSL-FO file"
+	@./resume -revision $(shell git rev-parse --short HEAD) -yaml examples/en.yaml -tmpl fo.en.tmpl > en.fo
+	@echo "> Compiling to PDF"
+	@fop en.fo en.pdf
+	@echo "> Optimizing PDF"
+	@pdfcpu optimize en.pdf en_full.pdf 
 
 latex: build
 	@echo "> Building Latex file"

@@ -10,192 +10,155 @@ date: 1983-05-31
 ...
 # Cyber Security Architect / Ninja Developer / SecOps
 
-### Résumé
+### Resume
 
-> Développeur de formation et passionné de sécurité, j'aime traiter des projets
-alliant ces deux compétences. Mon expérience en développement, ainsi que ma
-curiosité pour les technologies me permet d'avoir un regard tourné vers
-l'avenir. J'attache de l'importance au partage des connaissances et
-compétences au sein de mon environnement de travail. Avide de connaissances,
-je recherche des postes permettant l'apprentissage et l'exploitation de
-nouveaux savoirs.
+> Former developer and security enthousiast, I like to deal with projects
+> combining these two skill sets.
+> My experience in development, as well as my curiosity for new technologies,
+> allow me to have a look forward to the future. I put real importance in 
+> sharing knowledge and skills within my job environment. Eager for knowledge,
+> I'm always looking for challenges and exploitation of new knowledges.
 
+ - Career objectives : Cyber Security Architect; Instructor; Technical Expert; DevSecOps; Slasher; 
+ - Domains : Cyber Security; Big Data; IoT; Blockchain; 
 
- - Profil de postes souhaités : Architecte; Formateur; Expert Technique; DevSecOps; Product Owner; Slasher; 
- - Domaines : Cyber Sécurité; Big Data; IoT; Blockchain; Machine learning; 
+Follow me on [blog](https://blog.zenithar.org); [facebook](https://www.facebook.com/zenithar); [github](https://github.com/zenithar); [linkedin](https://www.linkedin.com/in/zenithar); [mastodon](https://mamot.fr/@zenithar); [twitter](https://twitter.com/zenithar); 
 
-Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.facebook.com/zenithar); [github](https://github.com/zenithar); [linkedin](https://www.linkedin.com/in/zenithar); [mastodon](https://mamot.fr/@zenithar); [twitter](https://twitter.com/zenithar); 
+> Download [PDF](signed.pdf).
 
-> Télécharger le [PDF](signed.pdf).
+### Work Experience
 
-### Expérience professionnelle
-
-- [Continental Digital Services]() - Industriel Automotive (R&D) - Toulouse, France
+- [Continental Digital Services]() - Automotive (R&D) - Toulouse, France
   
-  * **Cyber Security Architect / Ninja Developer / SecOps / PO** - Depuis June,2017
-    - Product Owner pour produits Sécurité / DevOps.
+  * **Cyber Security Architect / Ninja Developer / SecOps / PO** - Since June,2017
+    
+    - Product Owner for internal security products.
     - Technical leader / Golang guru.
-    - Définition des services de cyber risk monitoring (AWS).
-    - Définition plateforme de production (Data, Services, Produits, Operations).
-    - Définition stratégie "Security By Design".
-    - Plateforme de communication sécurisée Voiture connectée / IoT <-> Cloud. (HTTP, MQTT, CoAP)
-    - Plateforme d'identification et contrôle d'accès distribuée. (AWS, Go, OIDC / SAML2)
-    - Protocole d'identification respectant la vie privée. (Crypto, ZKP)
-    - Etude d'intégration de blockchain. (Data Sharing, Licensing)
-    - Mesures techniques CyberSécurité liées au RGPD. (Crypto, Go, Java, Scala)
-    - Rédaction des guides de durcissement. (AWS, Docker / K8S)
-    - Audits et conseils d'architecture. (Threat Model)
-    - Audits et conseils de code sécurité. (Java / J2EE, NodeJS, Python, Go, Crypto)
-    - Formation / Support aux équipes. (Go, Crypto, Blockchain)
+    - Cyber risk monitoring services definition (AWS).
+    - Production platform definition (Data, Services, Products, Operations).
+    - Security By Design strategy definition.
+    - Secured communication gateway Connected Cars <-> Cloud. (HTTP, MQTT, CoAP)
+    - Identification, authorization and accounting platform. (AWS, Go, OIDC / SAML2)
+    - Privacy proof authentication protocol. (Crypto, ZKP)
+    - Private blockchain integration. (Etherem, Data Sharing, Licensing)
+    - Privacy engineering. (Crypto, Go, Java, Scala)
+    - Hardening guides writeups. (AWS, Docker / K8S)
+    - Architecture audits and consulting. (Threat Modeling)
+    - Security code review. (Java / J2EE, NodeJS, Python, Go, Crypto)
+    - Formation / Awareness. (Go, Crypto, Blockchain)
     
 
-- [Sogeti ESEC](https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/) - Securité (SSII) - Toulouse, France
+- [Sogeti ESEC](https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/) - Security (ESN) - Toulouse, France
   
-  * **Cyber Security Expert / Data Architect / Full Stack Developer / DevOps** - De October,2013 à June,2017
-    - Développement outils CERT / SOC.
-    - Outil de gestion d'incidents Jira / QRadar (Go, Javascript, RethinkDB)
-    - Plateforme d'analyse de malware automatisée pour extraction d'IoC. (Go, RethinkDB, RabbitMQ, Docker, Cuckoo, VirusTotal, Yara, AngularJS 2)
-    - Etude des régroupements de données IoC / IoA / observables. (R, Neo4j, ElasticSearch, Machine learning, Clustering)
-    - Plateforme de centralisation d'indicateurs pour analyse sécurité "Technical Threat Intelligence". (Go, RabbitMQ, ElasticSearch, Neo4j, AngularJS)
-    - Plateforme de centralisation et corrélation des bulletins sécurité. (Go, RabbitMQ, MongoDB, AngularJS)
-    - Conception et réalisation d'un système embarqué type "boîte blanche" pour décontamination virale. (Go, AngularJS, Qt, ZMQ, Docker)
-    - Microservices: email (composition, envoi, signature), identification / autorisation, jetons, licences (Go, gRPC, Consul, Vault, Docker, Rancher)
-    - Audit qualité et sécurité. (Java / J2EE)
-    - Encadrement stagiaires.
+  * **Cyber Security Expert / Data Architect / Full Stack Developer / DevOps** - From October,2013 to June,2017
+    
+    - CERT / SOC tooling.
+    - Incident management bridge Jira / QRadar (Go, Javascript, RethinkDB)
+    - Automated malware analysis platform for IoC extraction. (Go, RethinkDB, RabbitMQ, Docker, Cuckoo, VirusTotal, Yara, AngularJS 2)
+    - Threat intelligence platform (Go, RabbitMQ, ElasticSearch, Neo4j, AngularJS)
+    - Vulnerability monitoring and followup platform. (Go, RabbitMQ, MongoDB, AngularJS)
+    - Embbeded automated virus detection box for USB devices. (Go, AngularJS, Qt, ZMQ, Docker)
+    - Microservices: email (composition, sending, signatures), identification / authorization, tokens, licences (Go, gRPC, Consul, Vault, Docker, Rancher)
+    - Security code review. (Java / J2EE)
+    - Trainee mentoring.
     
 
-- [Infotel](http://www.infotel.com) - Mainframe (Editeur / R&D) - Toulouse, France
+- [Infotel](http://www.infotel.com) - Mainframe (Editor / R&D) - Toulouse, France
   
-  * **Ingénieur R&D / Scrum Master** - De January,2010 à October,2013
-    - Plateforme de dépot sécurisé de fichier à haute valeur probante. (RabbitMQ, Protobuf, Scala/AKKA, Java, Spring, ElasticSearch, AngularJS)
-    - Conception et réalisation d'un SSO basé sur OAUTH 2.0. (Java, Spring, JWT, PKI, PKCS#11, HOTP)
-    - Industrialisation de la chaîne documentaire. (Git, Jenkins, Maven, Docbook5, XSLT, FOP)
-    - Revue de code qualité et sécurité. (Java, J2EE)
-    - Maintenance de produits. (ClearCase, Java, Struts2, Eclipse RCP, Z/OS)
-    - Encadrement stagiaires.
+  * **Engineer R&D / Scrum Master** - From January,2010 to October,2013
+    
+    - Digital Safe platform. (RabbitMQ, Protobuf, Scala/AKKA, Java, Spring, ElasticSearch, AngularJS)
+    - Identification, authorization and accounting platform. (Java, Spring, JWT, PKI, PKCS#11, HOTP)
+    - Documentation toolchain. (Git, Jenkins, Maven, Docbook5, XSLT, FOP)
+    - Code review. (Java, J2EE)
+    - Applicative maintenance. (ClearCase, Java, Struts2, Eclipse RCP, Z/OS)
+    - Trainee mentoring.
     
 
-- [SCASSI Conseil](http://www.scassi.com) - Sécurité (SSII / Conseil) - Toulouse, France
+- [SCASSI Conseil](http://www.scassi.com) - Security (ESN / Consulting) - Toulouse, France
   
-  * **Ingénieur Sécurité** - De July,2008 à December,2009
-    - Conception et réalisation d'un outil d'analyse de risques basé sur la méthodologie EBIOS (SOA, J2EE, .Net)
-    - Généralisation des méthodes d'analyse de risques (UML)
-    - Audit de code (Java/J2EE, C/C++, PHP)
-    - Reverse engineering, analyse de malware
-    - SOC (Security Operating Center) auprès d'un grand compte (Gestion des événements sécurité, gestion des requêtes sécurité, maintient en condition opérationnelle)
-    - Instructeur pour des ateliers techniques (Virtualisation / Firewall & Contrôles d'accès) auprès d'une vingtaine de personnes
+  * **Cyber Security Expert** - From July,2008 to December,2009
     
-  * **Développeur, Stagiaire** - De October,2007 à July,2008
-    - Conception et réalisation d'un outil d'analyse de risques basé sur la méthodologie EBIOS (Ruby, RoR)
-    - Administration système et réseau dans un environnement hétérogène
-    - Penetration Testing sur applications Web J2EE.
-    
-
-- [Opencube Technologies](http://www.opencubetech.com/) - Média Numérique (Editeur / R&D) - Toulouse, France
-  
-  * **Développeur, Stagiaire** - De March,2007 à September,2007
-    - Réalisation d'une API d'exploitation de format d'échange de sous-titre DFXP. (Qt, C++)
-    - Traitement du signal pour récupération de signaux télétexte. (Qt, C++)
-    
-
-- [MEDES IMPS](http://www.medes.fr/) - Santé / Espace (Editeur / R&D) - Toulouse, France
-  
-  * **Développeur, Stagiaire** - De March,2006 à September,2006
-    - Conception et réalisation d'un composant graphique pour afficher des informations géolocalisées. (Java, Eclipse, RCP)
-    - Etat de l'art des systèmes d'informations géolocalisées libre (PostGIS, GRASS)
-    - Architecture réseau, mise en place d'un domaine libre (OpenLDAP, Samba, Kerberos, DHCP, DNS, NTP)
-    - Virtualisation Serveurs (Gentoo, Xen, VMWare)
-    
-
-- [Karobas](http://www.karobas.fr/) - Jeux Vidéo (Editeur / R&D) - Sophia Antipolis, France
-  
-  * **Administrateur Système et Réseau, Stagiaire** - De March,2005 à August,2005
-    - Conception / Restructuration du réseau de l'entreprise.
-    - Haute disponibilité et Sécurité.
-    - Mise en place d'un domaine Exchange 2003.
-    - Migration technologique de base de données, et prise en charges des impacts logiciels.
-    - Modélisation mondes ludo-educatifs (Virtools).
-    
-
-- [Nice-antiques.com](http://www.karobas.fr/) - Art (Antiquaire) - Nice, France
-  
-  * **WebMaster, Stagiaire** - De March,2004 à July,2004
-    - Conception et réalisation d'un site web dynamique. (PHP / MySQL)
-    - Optimisation du référencement commercial.
+    - EBIOS method risk analysis tool (SOA, J2EE, .Net)
+    - Metamodeling for risk modeling applied on software designs (UML)
+    - Code review (Java/J2EE, C/C++, PHP)
+    - Reverse engineering (Crackme)
+    - SoC Analyst
+    - Instructor for Virtualisation / Firewall & Access controls workshops
     
 
 
 
-### Formation
+### Education
 
 - IUP ISI, Toulouse, France
   
-  - 2008 - **M2 ISI - Métamodélisation et Temps réél critique**
-    > Métamodélisation UML; J2EE; Programmation temps réél (ADA, C, SCADE); Droit; 
+  - 2008 - **Master's degree in Computer Science - 2nd year**
+    > UML Metamodel; Realtime programming (ADA, C, SCADE); J2EE; Law; 
   
-  - 2007 - **M1 Ingénierie des Systèmes Informatiques (ISI)**
-    > Conception / Modélisation UML; Programmation distribuée (Java / J2EE, C); Base de données (avancé); Mathématiques; Gestion / Economie; 
+  - 2007 - **Master's degree in Computer Science - 1st year**
+    > UML Modeling; Distributed programming (Java / J2EE, C); Databases; Mathematics; Mangement / Economy; 
   
-  - 2006 - **L3 Ingénierie des Systèmes Informatiques**
-    > Conception / Modélisation UML; Programmation (Java / C++ / C / ASM); Base de données; Mathématiques; Gestion / Economie; 
+  - 2006 - **License's degree in Computer Science**
+    > UML Modeling; Languages (Java / C++ / C / ASM); Databases; Mathematics; Mangement / Economy; 
   
 - IUT Informatique, Nice, France
   
-  - 2005 - **Licence Professionnelle, Administration des Systèmes et des Réseaux (ASR)**
-    > Réseau; Administration Systèmes (Unix, Windows); Base de données (Oracle); Mathématiques; Gestion / Economie; Droit; 
+  - 2005 - **License's degree in Network and System administration**
+    > Network administration; System administration (Unix, Windows); Database administration (Oracle); Mathematics; Management / Economy; Law; 
   
-  - 2004 - **DUT Informatique, Génie Logiciel**
-    > Base de données; Programmation (Java / C++ / C); Réseau; Mathématiques; Gestion / Economie; 
+  - 2004 - **Associate's degree in Computer Science**
+    > Database; Languages (Java / C++ / C); Network; Mathematics; Management / Law; 
   
 - Lycée Albert Camus, Fréjus, France
   
-  - 2002 - **Bac S, Science de l'Ingénieur, spécialité Mathématiques**
-    > Mathématiques; Mécanique; Electronique; Informatique; 
+  - 2002 - **High School'degree in Science and Enginnering, option Mathematics**
+    > Mathematics; Mecanic; Electronic; Computer Science; 
   
 
 
-### Langues
+### Languages
 
  - Français - Langue maternelle
  - Anglais - Lu, écrit et parlé
 
 
-### Compétences
+### Skills
 
-> 5: *Expertise*, 4: _Je connais_, 3: _Je peux_, 2: _J'apprends_, 1: _Vraiment si besoin !_
+> 5: *Expertise*, 4: _I know_, 3: _I can do_, 2: _I'm learning_, 1: _Only if really needed !_
 
 
-- **Fonctionnelles**
+- **Non-Technicals**
 
-  * _(5/5)_ : Creative Thinking; Veille technologique; Slasher; 
-  * _(4/5)_ : Gestion de projet / Scrum Master; Conduite de réunion; Pédagogie / Vulgarisation; 
-  * _(3/5)_ : Rédaction publications scientifiques; Présentation en public; 
+  * _(5/5)_ : Creative Thinking; Technology watch; Slasher; 
+  * _(4/5)_ : Project Management / Scrum Master; Meeting lead; Pedagogy / Vulgarisation; 
+  * _(3/5)_ : Scientific publication writeup; Public talks; 
 
-- **Sécurité**
+- **Security**
 
-  * _(5/5)_ : Programmation défensive; Contre-mesures sécurité; OWASP Top 10; SANS Top 25; 
-  * _(4/5)_ : Audit de code; Cryptographie / Chiffrement; Durcissement Logiciel / Conteneur; Threat Modeling (DFD, AT); Threat Intelligence; Cuckoo Sandbox; 
-  * _(3/5)_ : Analyse de risque (EBIOS); RGPD; Suricata; Bro IDS; Honeypots (Cowerie / Kippo); Sinkhole; QRadar SIEM; Splunk; ElasticSearch / LogStash / Kibana; 
+  * _(5/5)_ : Defensive Programming; Security Threat Countermeasures; OWASP Top 10; SANS Top 25; 
+  * _(4/5)_ : Code audit; Cryptography / Cipher; Container / Software Hardening; Threat Modeling (DFD, AT); Threat Intelligence; Cuckoo Sandbox; 
+  * _(3/5)_ : Risk Analysis (EBIOS); GDPR; Suricata; Bro IDS; Honeypots (Cowerie / Kippo); Sinkhole; QRadar SIEM; Splunk; ElasticSearch / LogStash / Kibana; 
   * _(2/5)_ : Reverse Engineering; Penetration Testing; 
 
-- **Langages**
+- **Languages**
 
   * _(5/5)_ : Go; JavaScript; Java; 
   * _(4/5)_ : C/C++; Rust; Ruby; Python; 
   * _(3/5)_ : Scala; ASM (x86, ARM7); PHP; 
   * _(2/5)_ : Elixir; Erlang; 
 
-- **Ingénierie des données**
+- **Data Engineering**
 
-  * _(5/5)_ : Modélisation Sémantique; Préparation des données; Data Wrangling; Data Scraping; 
+  * _(5/5)_ : Semantic Modeling; Data Preparation; Data Wrangling; Data Scraping; 
   * _(4/5)_ : Protégé; Anonymisation; ElasticSearch / LogStash / Kibana; 
-  * _(3/5)_ : Traitement du signal; Detection d'anomalies; Statistiques; Python / Jupyter / Pandas; SciKit Learn; Machine learning (SVM, PNN, RF, GBM); H2o; 
+  * _(3/5)_ : Digital signal processing; Anomaly detection; Statistics; Python / Jupyter / Pandas; SciKit Learn; Machine learning (SVM, PNN, RF, GBM); H2o; 
 
-- **Affinités FullStack**
+- **FullStack Affinities**
 
-  * _(5/5)_ : Développement Backend; DevOps; 
-  * _(4/5)_ : Développement Frontend; 
-  * _(1/5)_ : UI/UX Designer; 
+  * _(5/5)_ : Backend Development; DevOps; 
+  * _(4/5)_ : Frontend Development; 
+  * _(1/5)_ : UI/UX Desginer; 
 
 - **Backend Framework**
 
@@ -228,11 +191,11 @@ Retrouvez-moi sur [blog](https://blog.zenithar.org); [facebook](https://www.face
   * _(2/5)_ : Smart Contract; Solidity; 
 
 
-### Références
+### References
 
-> Disponibles sur demandes.
+> Available upon requests.
 
-### Autres activités
+### Miscelaneous
 
  - Instruments musique: Batterie & Saxophone
  - Amélioration continuelle grâce à la veille technologique, l'expérimentation et les projets personnels (Sécurité, Logiciels, Techniques de management)

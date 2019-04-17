@@ -6,7 +6,7 @@ quote: "Il existe moins bien mais c'est plus cher !"
 
 # ----------------------------------------------------------------------------
 
-title: Cyber Security Architect / Ninja Developer / SecOps
+title: Cyber Security Architect / Polyglot Developer / DevSecOps
 
 summary: |
   Développeur de formation et passionné de sécurité, j'aime traiter des projets
@@ -24,7 +24,6 @@ expectations:
     - "Formateur"
     - "Expert Technique"
     - "DevSecOps"
-    - "Product Owner"
     - "Slasher"
 
   domains:
@@ -32,8 +31,7 @@ expectations:
     - "Big Data"
     - "IoT"
     - "Blockchain"
-    - "Machine learning"
-
+    
 # ----------------------------------------------------------------------------
 
 companies:

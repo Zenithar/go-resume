@@ -1,0 +1,341 @@
+<fo:root writing-mode="lr-tb" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="A4" page-width="210mm" page-height="297mm" margin-top="1cm" margin-bottom="1cm" margin-left="1cm" margin-right="1cm">
+      <fo:region-body margin-bottom="20mm" />
+      <fo:region-after region-name="page-footer" extent="30mm" display-align="after" />
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+
+  <fo:page-sequence master-reference="A4">
+    <fo:static-content flow-name="page-footer">
+      <fo:block font-size="6pt" text-align="center" space-after.conditionality="retain" space-after="0.25in">
+        <fo:block space-before="0.67em" border="1px solid" space-before.minimum="0.5em" space-before.optimum="0.67em" space-before.maximum="0.92em" space-after.minimum="0.5em" space-after.optimum="0.67em" space-after.maximum="0.92em" />
+
+        <fo:table>
+          <fo:table-column column-width="33%" />
+          <fo:table-column column-width="34%" />
+          <fo:table-column column-width="33%" />
+          <fo:table-body>
+            <fo:table-row>
+              <fo:table-cell text-align="left">
+                <fo:block>
+                  <fo:basic-link external-destination="url('http://zenithar.org/')">http://zenithar.org/</fo:basic-link>
+                </fo:block>
+              </fo:table-cell>
+              <fo:table-cell text-align="center">
+                <fo:block>
+                  Last generated on {~ .Now.Format "2006-01-02" ~}
+                  <fo:basic-link external-destination="url('https://github.com/Zenithar/cv/commit/{~ .Revision ~}')"> ({~ .Revision ~})</fo:basic-link>
+                </fo:block>
+              </fo:table-cell>
+              <fo:table-cell text-align="right">
+                <fo:block>
+                  <fo:page-number/> /
+                  <fo:page-number-citation ref-id="last-page-marker" /></fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+          </fo:table-body>
+        </fo:table>
+      </fo:block>
+    </fo:static-content>
+
+    <fo:flow flow-name="xsl-region-body" font-size="80%">
+
+      <fo:table>
+        <fo:table-column column-width="100%" />
+        <fo:table-body>
+          <fo:table-row>
+
+            <fo:table-cell>
+              <!-- Header -->
+              <fo:block-container>
+                <fo:block border-after-style="double" border-after-width="medium" font-size="200%" letter-spacing=".15em" font-variant="small-caps">
+                  {~ .Me.FirstName | HtmlEscape ~} {~ .Me.LastName | HtmlEscape ~}
+                </fo:block>
+
+                <fo:table space-before="4pt">
+                  <fo:table-column column-width="80%"/>
+                  <fo:table-column column-width="20%"/>
+                  <fo:table-body>
+                      <fo:table-row>
+                          <fo:table-cell text-align="left">
+                              <fo:block>
+                                {~ .Me.Location.City | HtmlEscape ~} - {~ .Me.Location.CountryCode ~} &#8226; {~ .Me.Contact.Mobile ~}
+                              </fo:block>
+                          </fo:table-cell>
+                          <fo:table-cell text-align="right">
+                              <fo:block>
+                                <fo:basic-link color="blue" text-decoration="underline" external-destination="url('mailto:{~ .Me.Contact.Email ~}')">{~ .Me.Contact.Email | HtmlEscape ~}</fo:basic-link>
+                              </fo:block>
+                          </fo:table-cell>
+                      </fo:table-row>
+                  </fo:table-body>
+                </fo:table>
+              </fo:block-container>
+              <!-- /Header -->
+
+              <!-- Title -->
+              <fo:block-container space-before="25pt" id="title">
+                <fo:block text-align="center" font-weight="bold" space-before="4pt" space-after="0pt" font-size="150%">
+                  {~ .Title ~}
+                </fo:block>
+              </fo:block-container>
+              <!-- /Title -->
+            </fo:table-cell>
+          </fo:table-row>
+        </fo:table-body>
+      </fo:table>
+
+      <!-- Résumé -->
+      <fo:block-container space-before="4pt" id="resume">
+        <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+          Introduction
+        </fo:block>
+        <fo:block text-align="justify" font-style="italic" space-before="4pt" space-after="8pt">
+          {~ .Summary | HtmlEscape ~}
+        </fo:block>
+      </fo:block-container>
+      <!-- /Résumé -->
+
+      <!-- Expectations -->
+      <fo:block-container space-before="4pt" id="expectations">
+        <fo:block text-align="justify" font-style="italic" space-before="4pt" space-after="8pt">
+          <fo:block font-size="80%">
+            Career objectives : {~ range .Expectations.Jobs ~}{~ . | HtmlEscape ~}; {~ end ~}
+          </fo:block>
+          <fo:block font-size="80%">
+            Domains : {~ range .Expectations.Domains ~}{~ . | HtmlEscape ~}; {~ end ~}
+          </fo:block>
+        </fo:block>
+      </fo:block-container>
+      <!-- /Expectations -->
+
+      <!-- Experiences -->
+      <fo:block-container space-before="12pt" id="experiences">
+        <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+          Work Experience
+        </fo:block>
+{~ range .Companies ~}
+        <fo:block space-before="4pt" space-after="8pt">
+            <fo:table keep-together.within-column="always">
+                <fo:table-column column-number="1" column-width="66%"/>
+                <fo:table-column column-number="2" column-width="34%"/>
+                <fo:table-body>
+                    <fo:table-row font-weight="bold">
+                        <fo:table-cell text-align="left">
+                            <fo:block>
+                                <fo:basic-link external-destination="url('{~ .Website ~}')" text-decoration="underline">{~ .Title | HtmlEscape ~}</fo:basic-link>
+                                [{~ .Sector | HtmlEscape ~} - {~ .Activity | HtmlEscape ~}]
+                            </fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell text-align="right">
+                            <fo:block>{~ .Location.City | HtmlEscape ~} - {~ .Location.CountryCode ~}</fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+                    {~ range .Positions ~}
+                        <fo:table-row>
+                            <fo:table-cell text-align="left">
+                                <fo:block font-style="italic">{~ if .Trainee ~}Trainee - {~ end ~}{~ .Title | HtmlEscape ~}</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell text-align="right">
+                                <fo:block font-style="italic">
+                                  {~ .DateRange ~}
+                                </fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        {~ if not .Trainee ~}
+                        <fo:table-row>
+                            <fo:table-cell number-columns-spanned="2">
+                                <fo:list-block margin-left="12pt">
+                                    {~ range .Highlights ~}
+                                        <fo:list-item>
+                                            <fo:list-item-label end-indent="label-end()">
+                                                <fo:block>&#8250;</fo:block>
+                                            </fo:list-item-label>
+                                            <fo:list-item-body start-indent="body-start()">
+                                                <fo:block font-size="80%">{~ . | HtmlEscape ~}</fo:block>
+                                            </fo:list-item-body>
+                                        </fo:list-item>
+                                    {~ end ~}
+                                </fo:list-block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        {~ end ~}
+                    {~ end ~}
+                </fo:table-body>
+            </fo:table>
+        </fo:block>
+{~ end ~}
+      </fo:block-container>
+      <!-- /Experiences -->
+
+      <!-- Formations -->
+      <fo:block-container space-before="12pt" id="education">
+        <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+          Education
+        </fo:block>
+{~ range .Education ~}
+        <fo:block space-before="4pt" space-after="8pt">
+            <fo:table keep-together.within-column="always">
+                <fo:table-column column-number="1" column-width="66%"/>
+                <fo:table-column column-number="2" column-width="34%"/>
+                <fo:table-body>
+                    <fo:table-row font-weight="bold">
+                        <fo:table-cell text-align="left">
+                            <fo:block>
+                                {~ .School | HtmlEscape ~}
+                            </fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell text-align="right">
+                            <fo:block>{~ .Location.City | HtmlEscape ~} - {~ .Location.CountryCode ~}</fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+
+                    {~ range .Diplomas ~}
+                        <fo:table-row>
+                            <fo:table-cell text-align="left">
+                                <fo:block font-style="italic">{~ .Title | HtmlEscape ~}</fo:block>
+                            </fo:table-cell>
+                            <fo:table-cell text-align="right">
+                                <fo:block font-style="italic">
+                                  {~ .ParsedEndDate.Year ~}
+                                </fo:block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                            <fo:table-cell number-columns-spanned="2">
+                                <fo:list-block margin-left="12pt">
+                                  <fo:list-item>
+                                      <fo:list-item-label end-indent="label-end()">
+                                          <fo:block>&#8250;</fo:block>
+                                      </fo:list-item-label>
+                                      <fo:list-item-body start-indent="body-start()">
+                                          <fo:block font-size="80%">{~ range .Courses ~}{~ . | HtmlEscape ~}; {~ end ~}</fo:block>
+                                      </fo:list-item-body>
+                                  </fo:list-item>
+                                </fo:list-block>
+                            </fo:table-cell>
+                        </fo:table-row>
+                    {~ end ~}
+                </fo:table-body>
+            </fo:table>
+        </fo:block>
+{~ end ~}
+      </fo:block-container>
+      <!-- /Formations -->
+
+      <!-- Langues -->
+      <fo:block-container space-before="12pt" id="languages">
+          <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+            Languages
+          </fo:block>
+          <fo:block space-before="4pt" space-after="8pt">
+            <fo:list-block margin-left="12pt" font-size="80%">
+                {~ range .Languages ~}
+                    <fo:list-item>
+                        <fo:list-item-label end-indent="label-end()">
+                            <fo:block>&#8250;</fo:block>
+                        </fo:list-item-label>
+                        <fo:list-item-body start-indent="body-start()">
+                            <fo:block>{~ .Name ~} - {~ .Level ~}</fo:block>
+                        </fo:list-item-body>
+                    </fo:list-item>
+                {~ end ~}
+            </fo:list-block>
+          </fo:block>
+      </fo:block-container>
+      <!-- /Langues -->
+
+      <!-- competences / skills -->
+      <fo:block-container space-before="12pt" id="skills">
+        <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+          Skills
+        </fo:block>
+        <fo:block space-before="4pt" space-after="8pt" font-size="75%" font-style="italic">
+          Evaluation scale : [5] "Expertise", [4] "I Do", [3] "I know", [2] "I'm learning" and [1] "Only if really necessarly".
+        </fo:block>
+        <fo:block space-before="4pt" space-after="8pt">
+        {~ range .SkillSets ~}
+          <fo:block keep-together.within-column="always">
+            <fo:block space-before="4pt" font-weight="bold">
+              {~ index .Category "en" | HtmlEscape ~}
+            </fo:block>
+            <fo:block font-size="80%">
+              {~ range .Levels ~}
+                {~ $level := .Level ~}
+                {~ range .Skills ~}
+                  {~ index . "en" | HtmlEscape ~} <fo:inline baseline-shift="super" font-size="60%">{~ $level ~}</fo:inline>;
+                {~ end ~}
+                {~ range .Technologies ~}
+                  {~ . | HtmlEscape ~} <fo:inline baseline-shift="super" font-size="60%">{~ $level ~}</fo:inline>;
+                {~ end ~}
+              {~ end ~}
+            </fo:block>
+          </fo:block>
+        {~ end ~}
+        </fo:block>
+      </fo:block-container>
+      <!-- competences / skills -->
+
+      <!-- Social -->
+      <fo:block-container space-before="12pt" id="social">
+          <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+            Liens
+          </fo:block>
+          <fo:block space-before="4pt" space-after="8pt">
+            <fo:list-block margin-left="12pt" font-size="80%">
+                <fo:list-item>
+                    <fo:list-item-label end-indent="label-end()">
+                        <fo:block>&#8250;</fo:block>
+                    </fo:list-item-label>
+                    <fo:list-item-body start-indent="body-start()">
+                        <fo:block>
+                            <fo:basic-link external-destination="url('{~ .Me.Contact.Website ~}')">[site] - {~ .Me.Contact.Website ~}</fo:basic-link>
+                        </fo:block>
+                    </fo:list-item-body>
+                </fo:list-item>
+                {~ range $key, $value := .Me.Profiles ~}
+                <fo:list-item>
+                    <fo:list-item-label end-indent="label-end()">
+                        <fo:block>&#8250;</fo:block>
+                    </fo:list-item-label>
+                    <fo:list-item-body start-indent="body-start()">
+                        <fo:block>
+                            <fo:basic-link external-destination="url('{~ $value.URL ~}')">[{~ $key | HtmlEscape ~}] - {~ $value.URL ~}</fo:basic-link>
+                        </fo:block>
+                    </fo:list-item-body>
+                </fo:list-item>
+                {~ end ~}
+            </fo:list-block>
+          </fo:block>
+      </fo:block-container>
+      <!-- /Social -->
+
+      <!-- Extra -->
+      <fo:block-container space-before="12pt" id="misc">
+          <fo:block border-after-style="solid" border-after-width="thin" font-size="150%">
+            Miscellaneous
+          </fo:block>
+          <fo:block space-before="4pt" space-after="8pt">
+            <fo:list-block margin-left="12pt" font-size="80%">
+                {~ range .Extras ~}
+                    <fo:list-item>
+                        <fo:list-item-label end-indent="label-end()">
+                            <fo:block>&#8250;</fo:block>
+                        </fo:list-item-label>
+                        <fo:list-item-body start-indent="body-start()">
+                            <fo:block>{~ . | HtmlEscape ~}</fo:block>
+                        </fo:list-item-body>
+                    </fo:list-item>
+                {~ end ~}
+            </fo:list-block>
+          </fo:block>
+      </fo:block-container>
+      <!-- /Extra -->
+
+      <fo:block id="last-page-marker" />
+    </fo:flow>
+
+  </fo:page-sequence>
+</fo:root>

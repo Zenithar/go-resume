@@ -1,0 +1,66 @@
+---
+title: '{~.Me.FirstName~} {~.Me.LastName~}'
+website: {~.Me.Contact.Website~}
+street: {~.Me.Location.Address~}
+postcode: {~.Me.Location.PostalCode~}
+city: {~.Me.Location.City~}
+phone: {~.Me.Contact.Mobile~}
+email: {~.Me.Contact.Email~}
+date: {~.Me.DateOfBirth~}
+...
+# {~.Title~}
+
+### Resume
+
+> {~.Summary~}
+
+ - Career objectives : {~range .Expectations.Jobs~}{~ . ~}; {~end~}
+ - Domains : {~range .Expectations.Domains~}{~.~}; {~end~}
+
+Follow me on {~ range $key, $value := .Me.Profiles ~}[{~ $key ~}]({~ $value.URL ~}); {~end~}
+
+> Download [PDF](signed.pdf).
+
+### Work Experience
+
+{~range .Companies~}- [{~.Title~}]({~.Website~}) - {~.Sector~} ({~.Activity~}) - {~.Location.City~}, {~.Location.CountryCode~}
+  {~range .Positions~}{~ $startDate := .ParsedStartDate ~}
+  * **{~.Title~}{~if .Trainee~}, as a Trainee{~end~}** - {~if .HasEndDate~}{~$endDate := .ParsedEndDate~}From {~$startDate.Month~},{~$startDate.Year~} to {~$endDate.Month~},{~$endDate.Year~}{~else~}Since {~$startDate.Month~},{~$startDate.Year~}{~end~}
+    
+    {~ range .Highlights~}- {~.~}
+    {~end~}{~end~}
+
+{~end~}
+
+### Education
+
+{~ range .Education ~}- {~.School~}, {~.Location.City~}, {~.Location.CountryCode~}
+  {~ range .Diplomas ~}
+  - {~ .ParsedEndDate.Year ~} - **{~ .Title ~}**
+    > {~range .Courses~}{~.~}; {~end~}
+  {~end~}
+{~end~}
+
+### Languages
+
+{~ range .Languages ~} - {~ .Name ~} - {~ .Level ~}
+{~end~}
+
+### Skills
+
+> 5: *Expertise*, 4: _I know_, 3: _I can do_, 2: _I'm learning_, 1: _Only if really needed !_
+
+{~ range .SkillSets ~}
+- **{~ index .Category "en" ~}**
+{~ range $level := .Levels ~}
+  * _({~ $level.Level ~}/5)_ : {~ range .Skills ~}{~ index . "en" ~}; {~ end ~}{~ range .Technologies ~}{~ . ~}; {~ end ~}{~end~}
+{~end~}
+
+### References
+
+> Available upon requests.
+
+### Miscelaneous
+
+{~ range .Extras ~} - {~.~}
+{~end~}

@@ -1,0 +1,226 @@
+version: 0.0.1
+
+info: !include main.yaml
+
+quote: "Il existe moins bien mais c'est plus cher !"
+
+# ----------------------------------------------------------------------------
+
+title: Cyber Security Architect / Ninja Developer / SecOps
+
+summary: |
+  Former developer and security enthousiast, I like to deal with projects
+  combining these two skill sets.
+  My experience in development, as well as my curiosity for new technologies,
+  allow me to have a look forward to the future. I put real importance in 
+  sharing knowledge and skills within my job environment. Eager for knowledge,
+  I'm always looking for challenges and exploitation of new knowledges.
+
+expectations:
+
+  jobs:
+    - "Cyber Security Architect"
+    - "Instructor"
+    - "Technical Expert"
+    - "DevSecOps"
+    - "Slasher"
+
+  domains:
+    - "Cyber Security"
+    - "Big Data"
+    - "IoT"
+    - "Blockchain"
+
+# ----------------------------------------------------------------------------
+
+companies:
+
+  - company: "Continental Digital Services"
+    website: "https://www.continental-corporation.com/"
+    activity: "R&D"
+    sector: "Automotive"
+    location:
+      countryCode: France
+      city: Toulouse
+    positions:
+      - title: "Cyber Security Architect / Ninja Developer / SecOps / PO"
+        startDate: "2017-06-18"
+        highlights:
+          - Product Owner for internal security products.
+          - Technical leader / Golang guru.
+          - Cyber risk monitoring services definition (AWS).
+          - Production platform definition (Data, Services, Products, Operations).
+          - Security By Design strategy definition.
+          - "Secured communication gateway Connected Cars <-> Cloud. (HTTP, MQTT, CoAP)"
+          - Identification, authorization and accounting platform. (AWS, Go, OIDC / SAML2)
+          - Privacy proof authentication protocol. (Crypto, ZKP)
+          - Private blockchain integration. (Etherem, Data Sharing, Licensing) 
+          - Privacy engineering. (Crypto, Go, Java, Scala)
+          - Hardening guides writeups. (AWS, Docker / K8S)
+          - Architecture audits and consulting. (Threat Modeling)
+          - Security code review. (Java / J2EE, NodeJS, Python, Go, Crypto)
+          - Formation / Awareness. (Go, Crypto, Blockchain)
+
+  - company: "Sogeti ESEC"
+    website: "https://www.fr.sogeti.com/expertise/nos-activites/cybersecurite/"
+    activity: "ESN"
+    sector: "Security"
+    location:
+      countryCode: France
+      city: Toulouse
+    positions:
+      - title: "Cyber Security Expert / Data Architect / Full Stack Developer / DevOps"
+        startDate: "2013-10-28"
+        endDate: "2017-06-08"
+        highlights:
+          - CERT / SOC tooling.
+          - Incident management bridge Jira / QRadar (Go, Javascript, RethinkDB)
+          - Automated malware analysis platform for IoC extraction. (Go, RethinkDB, RabbitMQ, Docker, Cuckoo, VirusTotal, Yara, AngularJS 2)
+          - Threat intelligence platform (Go, RabbitMQ, ElasticSearch, Neo4j, AngularJS)
+          - Vulnerability monitoring and followup platform. (Go, RabbitMQ, MongoDB, AngularJS)
+          - Embbeded automated virus detection box for USB devices. (Go, AngularJS, Qt, ZMQ, Docker)
+          - "Microservices: email (composing, sending, signatures), identification / authorization, tokens, licences (Go, gRPC, Consul, Vault, Docker, Rancher)"
+          - Security code review. (Java / J2EE)
+          - Trainee mentoring.
+
+  - company: "Infotel"
+    website: "http://www.infotel.com"
+    activity: "Editor / R&D"
+    sector: "Mainframe"
+    location:
+      countryCode: France
+      city: Toulouse
+    positions:
+      - title: "Engineer R&D / Scrum Master"
+        startDate: "2010-01-04"
+        endDate: "2013-10-26"
+        highlights:
+          - Digital Safe platform. (RabbitMQ, Protobuf, Scala/AKKA, Java, Spring, ElasticSearch, AngularJS)
+          - Identification, authorization and accounting platform. (Java, Spring, JWT, PKI, PKCS#11, HOTP)
+          - Documentation toolchain. (Git, Jenkins, Maven, Docbook5, XSLT, FOP)
+          - Code review. (Java, J2EE)
+          - Applicative maintenance. (ClearCase, Java, Struts2, Eclipse RCP, Z/OS)
+          - Trainee mentoring.
+
+  - company: "SCASSI Conseil"
+    website: "http://www.scassi.com"
+    activity: "ESN / Consulting"
+    sector: "Security"
+    location:
+      countryCode: France
+      city: Toulouse
+    positions:
+      - title: "Cyber Security Expert"
+        startDate: "2008-07-01"
+        endDate: "2009-12-20"
+        highlights:
+          - EBIOS method risk analysis tool (SOA, J2EE, .Net)
+          - Metamodeling for risk modeling applied on software designs (UML)
+          - Code review (Java/J2EE, C/C++, PHP)
+          - Reverse engineering (Crackme)
+          - SoC Analyst 
+          - Instructor for Virtualisation / Firewall & Access controls workshops
+
+# ----------------------------------------------------------------------------
+
+education:
+
+  - school: "IUP ISI"
+    location:
+      countryCode: France
+      city: Toulouse
+
+    diplomas:
+      - title: Master's degree in Computer Science - 2nd year
+        startDate: "2007-09-01"
+        endDate: "2008-09-01"
+        courses:
+          - UML Metamodel
+          - Realtime programming (ADA, C, SCADE)
+          - J2EE
+          - Law
+
+      - title: Master's degree in Computer Science - 1st year
+        startDate: "2006-09-01"
+        endDate: "2007-09-01"
+        courses:
+          - UML Modeling
+          - Distributed programming (Java / J2EE, C)
+          - Databases
+          - Mathematics
+          - Management / Economy
+
+      - title: License's degree in Computer Science
+        startDate: "2005-09-01"
+        endDate: "2006-09-01"
+        courses:
+          - UML Modeling
+          - Languages (Java / C++ / C / ASM)
+          - Databases
+          - Mathematics
+          - Mangement / Economy
+
+  - school: "IUT Informatique"
+    location:
+      countryCode: France
+      city: Nice
+
+    diplomas:
+      - title: License's degree in Network and System administration
+        startDate: "2004-09-01"
+        endDate: "2005-09-01"
+        courses:
+          - Network administration
+          - System administration (Unix, Windows)
+          - Database administration (Oracle)
+          - Mathematics
+          - Management / Economy
+          - Law
+
+      - title: Associate's degree in Computer Science
+        startDate: "2002-09-01"
+        endDate: "2004-09-01"
+        courses:
+          - Database
+          - Languages (Java / C++ / C)
+          - Network
+          - Mathematics
+          - Management / Law
+
+  - school: "Lycée Albert Camus"
+    location:
+      countryCode: France
+      city: Fréjus
+
+    diplomas:
+      - title: High School's degree in Science and Enginnering, option Mathematics
+        startDate: ""
+        endDate: "2002-09-01"
+        courses:
+          - Mathematics
+          - Mecanic
+          - Electronic
+          - Computer Science
+
+# ----------------------------------------------------------------------------
+
+languages:
+  - name: Français
+    level: Langue maternelle
+  - name: Anglais
+    level: Lu, écrit et parlé
+
+# ----------------------------------------------------------------------------
+
+skillsets: !include skills.yaml
+
+# ----------------------------------------------------------------------------
+extras:
+
+ - "Musician: Drummer & Saxophonist"
+ - Writer (Blog)
+ - 3D printing
+ - Home automation
+ - World cooking
+ - Microbrewery
+ - Home renovations
